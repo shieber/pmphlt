@@ -1,0 +1,42 @@
+---
+layout: post
+title: 'For Ada Lovelace Day 2012: Karen Spärck Jones'
+date: 2012-10-16 08:05:27.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- computational linguistics
+- computer science
+- language
+tags: []
+meta:
+  _edit_last: '2110'
+  _wp_rp_related_posts_query_result_cache_expiration: '1419923078'
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"2092";s:5:"score";s:16:"26.0913172511424";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"1481";s:5:"score";s:16:"24.4089560676053";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"1703";s:5:"score";s:16:"23.6214525261783";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:3:"884";s:5:"score";s:16:"23.6214525261783";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"1106";s:5:"score";s:15:"21.312592167935";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1574";s:5:"score";s:15:"21.252091417072";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1376";s:5:"score";s:16:"20.5708834205538";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"2132";s:5:"score";s:16:"19.8887564727307";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"2202";s:5:"score";s:16:"18.7997699784694";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"1203";s:5:"score";s:16:"13.8362917605808";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:3:"937";s:5:"score";s:16:"13.0425290319886";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:4:"2151";s:5:"score";s:16:"12.6411876409264";}}
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1645247612;s:7:"payload";a:0:{}}}
+author:
+  login: shieber
+  email: shieber@seas.harvard.edu
+  display_name: Stuart Shieber
+  first_name: Stuart
+  last_name: Shieber
+permalink: "/pamphlet/2012/10/16/for-ada-lovelace-day-2012-karen-sparck-jones/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<table width="140" align="right" bgcolor="#F7EFE5">
+<tbody>
+<tr>
+<td align="center"><a href="http://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones"><img src="{{site.baseurl}}/assets/2012/10/180px-Karen_Sp%25C3%25A4rck.jpg" alt=""></a></td>
+</tr>
+<tr>
+<td style="text-align: center"><span style="color: #999999">Karen Spärck Jones, 1935-2007</span></td>
+</tr>
+</tbody>
+</table>
+<p>In honor of <a href="http://findingada.com/">Ada Lovelace Day</a> 2012, I write about the only female winner of the <a href="http://www.bcs.org/category/5932">Lovelace Medal</a> awarded by the <a class="zem_slink" title="British Computer Society" href="http://www.bcs.org/" rel="homepage" target="_blank">British Computer Society</a> for "individuals who have made an outstanding contribution to the understanding or advancement of Computing". <a class="zem_slink" title="Karen Spärck Jones" href="http://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones" rel="wikipedia" target="_blank">Karen Spärck Jones</a> was the 2007 winner of the medal, awarded shortly before <a href="http://dx.doi.org/10.1162/coli.2007.33.3.289">her death</a>. She also happened to be a leader in my own field of computational linguistics, a past president of the <a class="zem_slink" title="Association for Computational Linguistics" href="http://www.aclweb.org/" rel="homepage" target="_blank">Association for Computational Linguistics</a>. Because we shared a research field, I had the honor of knowing Karen and the pleasure of meeting her on many occasions at ACL meetings.</p>
+<p>One of her most notable contributions to the field of information retrieval was the idea of inverse document frequency. Well before search engines were a "thing", Karen was among the leaders in figuring out how such systems should work. Already in the 1960's there had arisen the idea of keyword searching within sets of documents, and the notion that the more "hits" a document receives, the higher ranked it should be. Karen noted in her seminal 1972 paper "<a href="http://scholar.google.com/scholar?cluster=2767385655895369762&amp;hl=en&amp;as_sdt=0,22">A statistical interpretation of term specificity and its application in retrieval</a>" that not all hits should be weighted equally. For terms that are broadly distributed throughout the corpus, their occurrence in a particular document is less telling than occurrence of terms that occur in few documents. She proposed weighting each term by its "inverse document frequency" (IDF), which she defined as log(<em>N</em>/(<em>n</em> + 1)) where <em>N</em> is the number of documents and <em>n</em> the number of documents containing the keyword under consideration. When the keyword occurs in all documents, IDF approaches 1 for large <em>N</em>, but as the keyword occurs in fewer and fewer documents (making it a more specific and presumably more important keyword), IDF rises. The two notions of weighting (frequency of occurrence of the keyword together with its specificity as measured by inverse document frequency) are combined multiplicatively in the by now standard <a href="http://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf*idf metric</a>; tf*idf or its successors underlie essentially all information retrieval systems in use today.</p>
+<p>In <a href="http://www.bcs.org/content/ConWebDoc/10791">Karen's interview for the Lovelace Medal</a>, she opined that "Computing is too important to be left to men." Ada Lovelace would have agreed.</body></html></p>

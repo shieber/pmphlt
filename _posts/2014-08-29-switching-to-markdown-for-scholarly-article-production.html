@@ -1,0 +1,129 @@
+---
+layout: post
+title: Switching to Markdown for scholarly article production
+date: 2014-08-29 14:10:28.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- computer science
+- scholarly communication
+- writing
+tags: []
+meta:
+  _edit_last: '2110'
+  _wp_rp_related_posts_query_result_cache_expiration: '1419918195'
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"1866";s:5:"score";s:15:"24.463045113764";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"2202";s:5:"score";s:16:"20.8391207615928";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:3:"937";s:5:"score";s:16:"18.2111694547261";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"2132";s:5:"score";s:16:"15.3604505631056";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"1574";s:5:"score";s:16:"13.7882802112472";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1561";s:5:"score";s:15:"13.035277457254";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"1538";s:5:"score";s:16:"12.2391550674563";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"1417";s:5:"score";s:16:"11.5673391072136";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:3:"908";s:5:"score";s:16:"10.4077021175077";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"1829";s:5:"score";s:16:"9.73362912966552";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"2092";s:5:"score";s:16:"9.68970989653068";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:4:"1203";s:5:"score";s:16:"9.68970989653068";}}
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1648080192;s:7:"payload";a:0:{}}}
+author:
+  login: shieber
+  email: shieber@seas.harvard.edu
+  display_name: Stuart Shieber
+  first_name: Stuart
+  last_name: Shieber
+permalink: "/pamphlet/2014/08/29/switching-to-markdown-for-scholarly-article-production/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>[mathjax]</p>
+<p>With few exceptions, scholars would be better off writing their papers in a lightweight markup format called <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, rather than using a word-processing program like Microsoft Word. This post explains why, and reveals a hidden agenda as well.<sup><a id="fnref1" class="footnoteRef" href="#fn1">1</a></sup></p>
+<h3 id="microsoft-word-is-not-appropriate-for-scholarly-article-production">Microsoft Word is not appropriate for scholarly article production</h3>
+<!-- <table style="margin-left: 20px" width="200" align="right" bgcolor="#F7EFE5">
+<tbody>
+<tr>
+<td align="center"><a title="Old two pan balance" href="http://blogs.law.harvard.edu/pamphlet/files/2014/08/789px-Balance_scale_IMGP9728.jpg"><img src="{{site.baseurl}}/assets/2014/08/789px-Balance_scale_IMGP9728.jpg" alt="Old two pan balance" width="200"></a></td>
+</tr>
+<tr>
+<td style="text-align: center">
+<span style="color: #999999">…lightweight…</span><br />
+<span style="color: #999999;font-size: 85%">“<a href="http://xkcd.com/329/">Old two pan balance</a>” image from <a href="http://commons.wikimedia.org/wiki/User:Nikodem_Nijaki">Nikodem Nijaki</a> at <a href="http://commons.wikimedia.org/wiki/File:Balance_scale_IMGP9728.jpg">Wikimedia Commons</a>. Used <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">by permission</a>.</span>
+</td>
+</tr>
+</tbody>
+</table> -->
+<figure class="wrapped-image">
+  <img src="{{site.baseurl}}/assets/2014/08/789px-Balance_scale_IMGP9728.jpg" alt="Old two pan balance" />
+  <figcaption>…lightweight…</figcaption>
+</figure>
+
+<p>Before turning to lightweight markup, I review the problems with Microsoft Word as the lingua franca for producing scholarly articles. This ground has been heavily covered. (<a href="http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html">Here’s</a> a recent example.) The problems include:</p>
+<dl>
+<dt>Substantial learning curve</dt>
+<dd>Microsoft Word is a complicated program that is difficult to use well.</dd>
+<dt>Appearance versus structure</dt>
+<dd>Word-processing programs like Word <a href="http://ricardo.ecn.wfu.edu/~cottrell/wp.html">conflate composition with typesetting</a>. They work by having you specify how a document should look, not how it is structured. A classic example is section headings. In a typical markup language, you specify that something is a heading by marking it as a heading. In a word-processing program you might specify that something is a heading by increasing the font size and making it bold. Yes, Word has “paragraph styles”, and some people sometimes use them more or less properly, if you can figure out how. But most people don’t, or don’t do so consistently, and the resultant chaos has been well documented. It has led to a whole industry of people who specialize in massaging Word files into some semblance of consistency.</dd>
+<dt>Backwards compatibility</dt>
+<dd>Word-processing program file formats have a tendency to change. Word itself has gone through multiple incompatible file formats in the last decades, one every couple of years. Over time, you have to keep up with the latest version of the software to do anything at all with a new document, but updating your software may well mean that old documents are no longer identically rendered. With Markdown, no software is necessary to read documents. They are just plain text files with relatively intuitive markings, and the underlying file format (UTF-8 née ASCII) is backward compatible to 1963. Further, typesetting documents in Markdown to get the “nice” version is based on <a href="http://en.wikipedia.org/wiki/Free_and_open-source_software">free and open-source software</a> (<a href="http://daringfireball.net/projects/markdown/license">markdown</a>, <a href="https://code.google.com/p/pandoc/downloads/list">pandoc</a>) and built on other longstanding open source standards (<a href="http://latex-project.org/lppl/">LaTeX</a>, BibTeX).</dd>
+<dt>Poor typesetting</dt>
+<dd>Microsoft Word does a generally poor job of typesetting, as exemplified by hyphenation, kerning, mathematical typesetting. This shouldn’t be surprising, since the whole premise of a word-processing program means that the same interface must handle both the specification and typesetting in real-time, a recipe for having to make compromises.</dd>
+<dt>Lock-in</dt>
+<dd>Because Microsoft Word’s file format is effectively proprietary, users are locked in to a single software provider for any and all functionality. The file formats are <a href="http://www.joelonsoftware.com/items/2008/02/19.html">so complicated</a> that alternative implementations are effectively impossible.</dd>
+</dl>
+<h3 id="lightweight-markup-is-the-solution">Lightweight markup is the solution</h3>
+<p>The solution is to use a markup format that allows <em>specification</em> of the document (providing its logical structure) separate from the <em>typesetting</em> of that document. Your document is specified – that is, generated and stored – as straight text. Any formatting issues are handled not by changing the formatting directly via a graphical user interface but by specifying the formatting textually using a specific textual notation. For instance, in the HTML markup language, a word or phrase that should be <em>emphasized</em> is textually indicated by surrounding it with &lt;em&gt;…&lt;/em&gt;. HTML and other powerful markup formats like LaTeX and various XML formats carry relatively large overheads. They are complex to learn and difficult to read. (Typing raw XML is nobody’s idea of fun.) Ideally, we would want a markup format to be <em>lightweight</em>, that is, simple, portable, and human-readable even in its raw state.</p>
+<p>Markdown is just such a lightweight markup language. In Markdown, emphasis is textually indicated by surrounding the phrase with asterisks, as is familiar from <a href="http://www.ietf.org/rfc/rfc1855.txt">email conventions</a>, for example, *lightweight*. See, that wasn’t so hard. Here’s another example: A bulleted list is indicated by prepending each item on a separate line with an asterisk, like this:</p>
+<pre><code> * First item
+ * Second item</code></pre>
+<p>which specifies the list</p>
+<ul>
+<li>First item</li>
+<li>Second item</li>
+</ul>
+<p>Because specification and typesetting are separated, software is needed to convert from one to the other, to typeset the specified document. For reasons that will become clear later, I recommend the open-source software <a href="http://johnmacfarlane.net/pandoc/">pandoc</a>. Generally, scholars will want to convert their documents to PDF (though pandoc can convert to a huge variety of other formats). To convert file.md (the Markdown-format specification file) to PDF, the command</p>
+<pre><code> pandoc file.md -o file.pdf</code></pre>
+<p>suffices. Alternatively, there are <a href="http://mashable.com/2013/06/24/markdown-tools/">many editing programs</a> that allow entering, editing, and typesetting Markdown. I sometimes use <a href="http://bywordapp.com/">Byword</a>. In fact, I’m using it now.</p>
+<p>Markup languages range from the simple to the complex. I argue for Markdown for four reasons:</p>
+<ol>
+<li>Basic Markdown, sufficient for the vast majority of non-mathematical scholarly writing, is dead simple to learn and remember, because the markup notations were designed to mimic the kinds of textual conventions that people are used to – asterisks for emphasis and for indicating bulleted items, for instance. The coverage of this basic part of Markdown includes: emphasis, section structure, block quotes, bulleted and numbered lists, simple tables, and footnotes.</li>
+<li>Markdown is designed to be readable and the specified format understandable even in its plain text form, unlike heavier weight markup languages such as HTML.</li>
+<li>Markdown is well supported by a large ecology of software systems for entering, previewing, converting, typesetting, and collaboratively editing documents.</li>
+<li>Simple things are simple. More complicated things are more complicated, but not impossible. The extensions to Markdown provided by pandoc cover more or less the rest of what anyone might need for scholarly documents, including links, cross-references, figures, citations and bibliographies (via BibTeX), mathematical typesetting (via LaTeX), and much more.For instance, this equation (the <a href="http://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality">Cauchy-Schwarz inequality</a>) will typeset well in generated PDF files, and even in HTML pages using the wonderful <a href="http://www.mathjax.org/">MathJax</a> library.<span class="math">\[ \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) \]</span>(Pandoc also provides some extensions that simplify and extend the basic Markdown in quite nice ways, for instance, definition lists, strikeout text, a simpler notation for tables.)</li>
+</ol>
+<p>Above, I claimed that scholars should use Markdown “with few exceptions”. The exceptions are:</p>
+<ol>
+<li>The document requires nontrivial mathematical typesetting. In that case, you’re probably better off using LaTeX. Anyone writing a lot of mathematics has given up word processors long ago and ought to know LaTeX anyway. Still, I’ll often do a first draft in Markdown with LaTeX for the math-y bits. Pandoc allows LaTeX to be included within a Markdown file (as I’ve done above), and preserves the LaTeX markup when converting the Markdown to LaTeX. From there, it can be typeset with LaTeX. Microsoft Word would certainly not be appropriate for this case.</li>
+<li>The document requires typesetting with highly refined or specialized aspects. I’d probably go with LaTeX here too, though desktop publishing software (InDesign) is also appropriate if there’s little or no mathematical typesetting required. Microsoft Word would not be appropriate for this case either.</li>
+</ol>
+<p><a href="http://blogs.plos.org/mfenner/2012/12/13/a-call-for-scholarly-markdown/">Some</a> have proposed that we need a special lightweight markup language for scholars. But Markdown is sufficiently close, and has such a strong community of support and software infrastructure, that it is more than sufficient for the time being. Further development would of course be helpful, so long as the urge to add “features” doesn’t overwhelm its core simplicity.</p>
+<h3 id="the-hidden-agenda">The hidden agenda</h3>
+<p>I have a hidden agenda. Markdown is sufficient for the bulk of cases of composing scholarly articles, and simple enough to learn that academics might actually use it. Markdown documents are also typesettable according to a separate specification of document style, and retargetable to multiple output formats (PDF, HTML, etc.).<sup><a id="fnref2" class="footnoteRef" href="#fn2">2</a></sup> Thus, Markdown could be used as the production file format for scholarly journals, which would eliminate the need for converting between the authors’ manuscript version and the publishers internal format, with all the concomitant errors that process is prone to produce.</p>
+<p>In computer science, we have by now moved almost completely to a system in which authors provide articles in LaTeX so that no retyping or recomposition of the articles needs to be done for the publisher’s typesetting system. Publishers just apply their LaTeX style files to our articles. The result has been a dramatic improvement in correctness and efficiency. (It is in part due to such an efficient production process that <a href="http://hvrd.me/wOnMEq">the cost of running a high-end computer science journal can be so astoundingly low</a>.)</p>
+<p>Even better, there is a new breed of collaborative web-based document editing tools being developed that use Markdown as their core file format, tools like <a href="https://draftin.com/">Draft</a> and <a href="https://www.authorea.com/">Authorea</a>. They provide multi-author editing, versioning, version comparison, and merging. These tools could constitute the system by which scholarly articles are written, collaborated on, revised, copyedited, and moved to the journal production process, generating efficiencies for a huge range of journals, efficiencies that we’ve enjoyed in computer science and mathematics for years.</p>
+<p><a href="https://scholasticahq.com/innovations-in-scholarly-publishing/announcement/one-of-the-biggest-bottlenecks-in-open-access-publishing-is-typesetting-it-shouldn-t-be">As Rob Walsh of ScholasticaHQ</a> says, “One of the biggest bottlenecks in Open Access publishing is typesetting. It shouldn’t be.” A production ecology built around Markdown could be the solution.</p>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn1">Many of the ideas in this post are not new. Complaints about WYSIWYG word-processing programs have a long history. <a href="http://ricardo.ecn.wfu.edu/~cottrell/wp.html">Here’s a particularly trenchant diatribe</a> pointing out the superiority of disentangling composition from typesetting. The idea of “scholarly Markdown” as the solution is also not new. See <a href="http://www.surefoss.org/publishing-publizieren/all-you-need-is-text-markdown-via-pandoc-for-academia/">this post</a> or <a href="https://scholasticahq.com/innovations-in-scholarly-publishing/announcement/one-of-the-biggest-bottlenecks-in-open-access-publishing-is-typesetting-it-shouldn-t-be">this one</a> for similar proposals. I go further in viewing certain current versions of Markdown (as implemented in Pandoc) as practical already for scholarly article production purposes, though I support coordinated efforts that could lead to improved lightweight markup formats for scholarly applications. <strong>Update September 22, 2014:</strong> I've just noticed a post by Dennis Tenen and Grant Wythoff at <em><a href="http://programminghistorian.org/">The Programming Historian</a></em> on "<a href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Sustainable Authorship in Plain Text using Pandoc and Markdown</a>" giving a tutorial on using these tools for writing scholarly history articles.<a href="#fnref1">↩</a>
+</li>
+<li id="fn2">As an example, I’ve used this very blog post. Starting with the Markdown source file (which I’ve attached to this post), I first generated HTML output for copying into the blog using the command
+<pre><code>pandoc -S --mathjax --base-header-level=3 markdownpost.md -o markdownpost.html</code></pre>
+<p>A nicely typeset version using the <a href="http://www.ams.org/publications/authors/tex/tex">American Mathematical Society’s journal article document style</a> can be generated with</p>
+<pre><code>pandoc markdownpost.md -V documentclass:amsart -o markdownpost-amsart.pdf</code></pre>
+<p>To target the style of <a href="http://www.acm.org/publications/latex_style/">ACM transactions</a> instead, the following command suffices:</p>
+<pre><code>pandoc markdownpost.md -V documentclass:acmsmall -o markdownpost-acmsmall.pdf</code></pre>
+<p>Both PDF versions are also attached to this post.<a href="#fnref2">↩</a></p>
+<table width="*" bgcolor="#F7EFE5">
+<tbody>
+<tr>
+<td align="center"><strong>Attachments</strong></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li>
+<a href="http://blogs.law.harvard.edu/pamphlet/files/2014/08/markdownpost.txt">mardownpost.md</a>: The source file for this post in Markdown format</li>
+<li>
+<a href="http://blogs.law.harvard.edu/pamphlet/files/2014/08/markdownpost-amsart.pdf">markdownpost-amsart.pdf</a>: The post rendered using pandoc according to AMS journal style</li>
+<li>
+<a href="http://blogs.law.harvard.edu/pamphlet/files/2014/08/markdownpost-acmsmall.pdf">markdownpost-acmsmall.pdf</a>: The post rendered using pandoc according to ACM journal style</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+<p></body></html></p>

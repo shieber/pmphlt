@@ -1,0 +1,35 @@
+figure.float-right {
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 200px;
+  text-align: center;
+}
+
+figure.float-right img {
+  width: 100%;
+  height: auto;
+}
+
+figure.float-right figcaption {
+  font-size: 0.85em;
+  color: #666;
+}
+
+.wrapped-image {
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 100%;
+}
+
+.wrapped-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapped-image figcaption {
+  font-size: 90%;
+  color: #777;
+  text-align: center;
+  margin-top: 0.5em;
+}

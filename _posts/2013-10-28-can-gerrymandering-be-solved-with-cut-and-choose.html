@@ -1,0 +1,58 @@
+---
+layout: post
+title: Can gerrymandering be solved with cut-and-choose?
+date: 2013-10-28 10:45:45.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- computer science
+- policy
+- politics
+tags: []
+meta:
+  _edit_last: '2110'
+  _wp_rp_related_posts_query_result_cache_expiration: '1419921257'
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"1849";s:5:"score";s:16:"21.1538768203452";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"2060";s:5:"score";s:16:"16.5487066340298";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"1203";s:5:"score";s:16:"15.0854512321375";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"1481";s:5:"score";s:16:"11.9691619959716";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"2151";s:5:"score";s:16:"10.2628146461673";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"2132";s:5:"score";s:16:"10.2628146461673";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:3:"937";s:5:"score";s:16:"10.2628146461673";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"2092";s:5:"score";s:15:"9.8433735839123";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:4:"1538";s:5:"score";s:15:"9.8433735839123";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"1376";s:5:"score";s:15:"9.8433735839123";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"1284";s:5:"score";s:16:"8.73606074967364";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:3:"960";s:5:"score";s:16:"8.16069660480644";}}
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1647111947;s:7:"payload";a:0:{}}}
+  _wpas_skip_12106812: '1'
+  _wpas_skip_12100185: '1'
+author:
+  login: shieber
+  email: shieber@seas.harvard.edu
+  display_name: Stuart Shieber
+  first_name: Stuart
+  last_name: Shieber
+permalink: "/pamphlet/2013/10/28/can-gerrymandering-be-solved-with-cut-and-choose/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body><br />
+<em><strong>Update March 25, 2019:</strong> Wesley Pegden, Ariel D. Procaccia, and Dingli Yu have an <a href="https://arxiv.org/abs/1710.08781">elegant working out of the proposal</a> below that they call "I cut, you freeze." Pegden and Procaccia describe it in a <a href="https://www.washingtonpost.com/opinions/theres-another-way-to-solve-gerrymandering-its-as-simple-as-cake/2018/02/15/69e47508-0531-11e8-94e8-e8b8600ade23_story.html?utm_term=.e48803743c1f">Washington Post opinion piece</a>.</em></p>
+<table width="200" align="right" bgcolor="#F7EFE5">
+<tbody>
+<tr>
+<td align="center"><a title="'Halves' by flickr user Julie Remizova" href="http://farm8.staticflickr.com/7122/6986624532_554a079fe0_b.jpg"><img src="{{site.baseurl}}/assets/2013/10/6986624532_554a079fe0_b.jpg" alt="'Halves' by flickr user Julie Remizova" width="200"></a></td>
+</tr>
+<tr>
+<td style="text-align: center">
+<span style="color: #555555">…how to split a cupcake…</span><span style="color: #999999;font-size: 50%"><br />
+“<a href="http://www.flickr.com/photos/remizova/6986624532/">Halves</a>” image by flickr user <a href="http://www.flickr.com/photos/remizova/">Julie Remizova</a>.</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Why is gerrymandering even possible in a country with a <a href="http://www.law.cornell.edu/constitution/amendmentxiv">constitutional right to equal protection</a>?:</p>
+<blockquote><p>No State shall make or enforce any law which shall…deny to any person within its jurisdiction the equal protection of the laws.</p></blockquote>
+<p>By reshaping districts to eliminate the voting power of particular individuals, as modern district mapping software allows, some persons are being denied equal protection, I’d have thought. And so have <a href="http://www.scotusblog.com/2011/11/an-interview-with-justice-stevens/">certain Supreme Court justices</a>.</p>
+<p>It’s hard to know what to do about the problem. Appeals to fairness aren’t particularly helpful, since who decides what’s fair? It would be nice to think that requirements of “<a href="http://www.law.cornell.edu/supct/html/historics/USSC_CR_0377_0533_ZO.html">compact districts of contiguous territory</a>” (as Chief Justice Harlan put it) would be sufficient. But this reduces the problem of districting to a mathematical optimization problem; <a href="http://www.siam.org/pdf/news/1237.pdf">James Case proposes</a> something like minimum <a href="http://mathworld.wolfram.com/IsoperimetricQuotient.html">isoperimetric quotient</a> tessellation of a polygon. But such purely mathematical approaches may yield results that violate our intuitions about what is fair. They ignore other criteria, such as “<a href="http://www.law.cornell.edu/supct/html/historics/USSC_CR_0377_0533_ZO.html">natural or historical boundary lines</a>”, determined for instance by geographical features like rivers and mountains or shared community interests. These boundaries may not coincide with the mathematical optima, so any mathematical formulation would need to be defeasible to take into account such features. This leads us right back to how to decide in which cases the mathematical formulation should be adjusted: who should decide what is fair?</p>
+<p><a href="http://www.propublica.org/article/is-partisan-gerrymandering-unconstitutional#35939">A comment</a> at <a href="http://www.propublica.org/article/is-partisan-gerrymandering-unconstitutional">a ProPublica article about gerrymandering</a> from “damien” caught my attention as a nice way out of this quandary. In essence, he proposes that <em>the parties themselves</em> choose what’s fair.</p>
+<blockquote><p>The first solution to gerrymandering is to have a fitness measure for a proposed districting (e.g. the sum of the perimeters), and then to allow any individual or organisation to propose a districting, with the winner having the best fitness value.</p></blockquote>
+<p>What "damien" is proposing, I take it, is the application of an algorithm somewhat like one familiar from computer science (especially cryptography) and grade school cafeterias known as “<a href="http://en.wikipedia.org/wiki/Divide_and_choose">cut and choose</a>”. How do you decide how to split a cupcake between two kids? One cuts; the other chooses. The elegance of cut-and-choose is that it harmonizes the incentives of the two parties. The cutter is incentivized to split equally, since the chooser can punish inequity.</p>
+<p>Cut-and-choose is asymmetrical; the two participants have different roles. A symmetrical variant has each participant propose a cut and an objective third party selecting whichever is better according to the pertinent objective measure. This variant shares the benefit that each participant has an incentive to be more nearly equal than the other. If Alice proposes a cut that gives her 60% of the cupcake and Bob 40%, she risks Bob proposing a better split that gives her only 45% with him taking the remaining 55%. To avoid getting taken advantage of, her best bet is to propose a split as nearly equal as possible.</p>
+<p>In the anti-gerrymandering application of the idea, the two parties propose districtings, which they could gerrymander however they wanted. Whichever of the two proposals has the lower objective function (lower isoperimetric quotient, say) is chosen. Thus, if one party gerrymanders too much, their districting will be dropped in favor of the other party’s proposal. Each party has an incentive to hew relatively close to a compact partition, while being allowed to deviate in appropriate cases.</p>
+<p>A nice property of this approach is that the optimization problem doesn’t ever need to be solved. All that is required is the evaluation of the objective function for the two proposed districtings, which is computationally far simpler. (In fact, I’d guess the minimum isoperimetric quotient optimization problem might well be <a href="http://en.wikipedia.org/wiki/NP-hard">NP-hard</a>.)</p>
+<p>There are problems of course. The procedure is subject to gaming when the proposal-generating process is not private to the parties. It is unclear how to extend the method to more than two parties. Of course, the obvious generalization works once the eligible parties are determined. The hard part is deciding what parties are eligible to propose a redistricting. Most critically, the method is subject to collusion, especially in cases where <a href="http://en.wikipedia.org/wiki/Politics_of_California#Bi-partisan_gerrymandering">both parties benefit from gerrymandering</a>. In particular, both parties benefit from a districting that protects incumbencies for both parties. The parties could agree, for instance, not to disturb each other's safe districts, and would benefit from observing the agreement.</p>
+<p>Nonetheless, once districting is thought of in terms of <a href="http://en.wikipedia.org/wiki/Mechanism_design">mechanism design</a>, the full range of previous algorithms can be explored. Somewhere in the previous literature there might be a useful solution. (Indeed, the proposal here is essentially the first step in Brams, Jones, and Klamler's <a href="http://www.ams.org/notices/200611/fea-brams.pdf">surplus procedure</a> for cake-cutting.)</p>
+<p>Of course, as with many current political problems (campaign financing being the clearest example), the big question is how such new mechanisms would be instituted, given that it is not in the incumbent majority party's interest to do so. <a href="http://www.rootstrikers.org/">Until that’s sorted out</a>, I’m not holding out much hope.</body></html></p>

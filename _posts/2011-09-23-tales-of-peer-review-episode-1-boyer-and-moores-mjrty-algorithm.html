@@ -1,0 +1,53 @@
+---
+layout: post
+title: 'Tales of peer review, episode 1: Boyer and Moore''s MJRTY algorithm'
+date: 2011-09-23 11:07:37.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- computer science
+- scholarly communication
+tags: []
+meta:
+  _edit_last: '2110'
+  _wp_rp_related_posts_query_result_cache_expiration: '1419932167'
+  _wp_rp_related_posts_query_result_cache_6: a:12:{i:0;O:8:"stdClass":2:{s:7:"post_id";s:4:"1481";s:5:"score";s:16:"19.5664128457483";}i:1;O:8:"stdClass":2:{s:7:"post_id";s:4:"2151";s:5:"score";s:16:"19.0488479284704";}i:2;O:8:"stdClass":2:{s:7:"post_id";s:4:"2092";s:5:"score";s:16:"14.3888219840869";}i:3;O:8:"stdClass":2:{s:7:"post_id";s:4:"1203";s:5:"score";s:16:"14.3888219840869";}i:4;O:8:"stdClass":2:{s:7:"post_id";s:4:"1538";s:5:"score";s:16:"13.5093686530589";}i:5;O:8:"stdClass":2:{s:7:"post_id";s:4:"1376";s:5:"score";s:16:"13.5093686530589";}i:6;O:8:"stdClass":2:{s:7:"post_id";s:4:"2132";s:5:"score";s:16:"10.8510967579184";}i:7;O:8:"stdClass":2:{s:7:"post_id";s:4:"1829";s:5:"score";s:16:"10.8510967579184";}i:8;O:8:"stdClass":2:{s:7:"post_id";s:3:"896";s:5:"score";s:16:"10.2209529940381";}i:9;O:8:"stdClass":2:{s:7:"post_id";s:4:"1811";s:5:"score";s:16:"9.39929889057124";}i:10;O:8:"stdClass":2:{s:7:"post_id";s:4:"1561";s:5:"score";s:16:"9.39929889057124";}i:11;O:8:"stdClass":2:{s:7:"post_id";s:4:"1106";s:5:"score";s:16:"9.39929889057124";}}
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1647565528;s:7:"payload";a:0:{}}}
+author:
+  login: shieber
+  email: shieber@seas.harvard.edu
+  display_name: Stuart Shieber
+  first_name: Stuart
+  last_name: Shieber
+permalink: "/pamphlet/2011/09/23/tales-of-peer-review-episode-1-boyer-and-moores-mjrty-algorithm/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>I'm generally a big fan of peer review. I think it plays an important role in the improvement and "<a href="http://en.wikipedia.org/wiki/Chromatography">chromatography</a>" of the scholarly literature. But sometimes. Sometimes.</p>
+<!-- <table width="200" align="right" bgcolor="#F7EFE5">
+<tbody>
+<tr>
+<td><a href="http://blogs.law.harvard.edu/pamphlet/files/2011/09/mjrty-pattern1.png"><img src="{{site.baseurl}}/assets/2011/09/mjrty-pattern1.png" alt="The Boyer-Moore MJRTY algorithm allows efficient determination of which shape (triangle, circle, square) is in the majority without counting each shape." width="200"></a></td>
+</tr>
+<tr>
+<td style="text-align: center"><span style="color: #999999">The Boyer-Moore MJRTY algorithm allows efficient determination of which shape (triangle, circle, square) is in the majority <em>without counting each shape</em>.</span></td>
+</tr>
+</tbody>
+</table> -->
+<figure class="wrapped-image">
+  <img src="{{site.baseurl}}/assets/2011/09/mjrty-pattern1.png" alt="The Boyer-Moore MJRTY algorithm allows efficient determination of which shape (triangle, circle, square) is in the majority without counting each shape." />
+  <figcaption>The Boyer-Moore MJRTY algorithm allows efficient determination of which shape (triangle, circle, square) is in the majority <em>without counting each shape</em>.</figcaption>
+</figure>
+
+<p>This past week I was reading <a href="http://www.cs.utexas.edu/~boyer/">Robert Boyer</a> and <a href="http://www.cs.utexas.edu/~moore/">J Strother Moore</a>'s paper on computing the majority element of a multiset, which presents a very clever simple algorithm for this fundamental problem and a description of a <a href="http://en.wikipedia.org/wiki/Automated_theorem_proving">mechanical proof</a> of its correctness. The authors aptly consider the work a "minor landmark in the development of formal verification and automated reasoning".</p>
+<p>Below is the postscript to that paper, in its entirety, which describes the history of the paper including how and why it was "repeatedly rejected for publication". (It was eventually published as a chapter in a <a href="http://www.worldcat.org/oclc/24375294">1991 festschrift for Woody Bledsoe</a>, <em>ten years</em> after it was written, and is now also <a href="http://www.cs.utexas.edu/users/boyer/mjrty.ps.Z">available from Moore's website</a>.)</p>
+<p style="padding-left: 30px">In this paper we have described a linear time majority vote algorithm and discussed the mechanically checked correctness proof of a Fortran implementation of it. This work has a rather convoluted history which we would here like to clarify.</p>
+<p style="padding-left: 30px">The algorithm described here was invented in 1980 while we worked at SRI International. A colleague at SRI, working on fault tolerance, was trying to specify some algorithms using the logic supported by "Boyer-Moore Theorem Prover." He asked us for an elegant definition within that logic of the notion of the majority element of a list. Our answer to this challenge was the recursive expression of the algorithm described here.</p>
+<p style="padding-left: 30px">In late 1980, we wrote a Fortran version of the algorithm and proved it correct mechanically. In February, 1981, we wrote this paper, describing that work. In our minds the paper was noteworthy because it simultaneously announced an interesting new algorithm and offered a mechanically checked correctness proof. We submitted the paper for publication.</p>
+<p style="padding-left: 30px">In 1981 we moved to the University of Texas. Jay Misra, a colleague at UT, heard our presentation of the algorithm to an NSF site-visit team. According to Misra (private communication, 1990): "I wondered how to generalize [the algorithm] to detect elements that occur more than <em>n</em>/<em>k</em> times, for all <em>k</em>, <em>k</em> ≥ 2. I developed algorithm 2 [given in Section 3 of [9]] which is directly inspired by your algorithm. Also, I showed that this algorithm is optimal [Section 5, <em>op. cit.</em>]. On a visit to Cornell, I showed all this to David Gries; he was inspired enough to contribute algorithm 1 [Section 2, <em>op. cit.</em>]." In 1982, Misra and Gries published their work [9], citing our technical report appropriately as "submitted for publication."</p>
+<p style="padding-left: 30px">However, our paper was repeatedly rejected for publication, largely because of its emphasis on Fortran and mechanical verification. A rewritten version emphasizing the algorithm itself was rejected on the grounds that the work was superceded by the paper of Misra and Gries!</p>
+<p style="padding-left: 30px">When we were invited to contribute to the Bledsoe festschrift we decided to use the opportunity to put our original paper into the literature. We still think of this as a minor landmark in the development of formal verification and automated reasoning: here for the first time a new algorithm is presented along with its mechanically checked correctness proof—eleven years after the work.</p>
+<p>I have to think the world would have been better off if Boyer and Moore had just posted the paper to the web in 1981 and been done with it. Unfortunately, the web hadn't been developed yet.</body></html></p>

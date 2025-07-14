@@ -4,6 +4,10 @@ _site
 .ruby-version
 .jekyll-cache
 
+# Caches
+.sass-cache/
+.jekyll-cache/
+
 # Numerous always-ignore extensions
 *.diff
 *.err

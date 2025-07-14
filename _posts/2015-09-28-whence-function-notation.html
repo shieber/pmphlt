@@ -1,0 +1,86 @@
+---
+layout: post
+title: Whence function notation?
+date: 2015-09-28 14:28:20.000000000 -04:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- computer science
+- writing
+tags: []
+meta:
+  _edit_last: '2110'
+  _publicize_twitter_user: "@pmphlt"
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1647815431;s:7:"payload";a:0:{}}}
+  _wpas_done_all: '1'
+  _last_editor_used_jetpack: classic-editor
+author:
+  login: shieber
+  email: shieber@seas.harvard.edu
+  display_name: Stuart Shieber
+  first_name: Stuart
+  last_name: Shieber
+permalink: "/pamphlet/2015/09/28/whence-function-notation/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<html><body></p>
+<p>[mathjax]<br />
+I begin -- in <a href="http://blogs.law.harvard.edu/groundtruth/2004/10/08/three-styles-for-writing-a-paper/">continental style</a>, unmotivated and, frankly, gratuitously -- by defining Ackerman's function \(A\) over two integers:</p>
+<p>\[ A(m, n) = \left\{ \begin{array}{l}<br />
+n + 1 &amp; \mbox{ if $m=0$ } \\<br />
+A(m-1, 1) &amp; \mbox{ if $m &gt; 0$ and $n = 0$ } \\<br />
+A(m-1, A(m, n-1)) &amp; \mbox{ if $m &gt; 0$ and $n &gt; 0$ }<br />
+\end{array} \right. \]</p>
+<!-- <table style="margin-left: 20px" width="200" align="right" bgcolor="#F7EFE5">
+<tbody>
+<tr>
+<td align="center"><a title="…drawing their equations evanescently in dust and sand…" href="http://blogs.law.harvard.edu/pamphlet/files/2015/09/archimedes.jpg"><img src="{{site.baseurl}}/assets/2015/09/archimedes-300x235.jpg" alt="… drawing their equations evanescently in dust and sand…" width="200"></a></td>
+</tr>
+<tr>
+<td style="text-align: center">
+<span style="color: #999999">…drawing their equations evanescently in dust and sand…</span><br />
+<span style="color: #999999;font-size: 85%">Image of “<a href="https://www.gutenberg.org/files/26423/26423-h/26423-h.htm#img021">Death of Archimedes</a>” from Charles F. Horne, editor, <em><a href="https://www.gutenberg.org/files/26423/26423-h/26423-h.htm">Great Men and Famous Women</a></em>, Volume 3, 1894. Reproduced by <a href="https://www.gutenberg.org/">Project Gutenberg</a>. Used by permission.</span>
+</td>
+</tr>
+</tbody>
+</table> -->
+<figure class="wrapped-image">
+  <img src="{{site.baseurl}}/assets/2015/09/archimedes-300x235.jpg" alt="… drawing their equations evanescently in dust and sand…" />
+  <figcaption>…drawing their equations evanescently in dust and sand…</figcaption>
+</figure>
+
+<p>You'll have appreciated (unconsciously no doubt) that this definition makes repeated use of a notation in which a symbol precedes a parenthesized list of expressions, as for example \(f(a, b, c)\). This configuration represents the application of a function to its arguments. But you knew that. And why? Because <em>everyone who has ever gotten through eighth grade math has been taught this notation</em>. It is inescapable in high school algebra textbooks. It is a standard notation in the most widely used programming languages. It is the very archetype of common mathematical knowledge. It is, for God's sake, in the <a href="http://www.corestandards.org/Math/Content/HSF/introduction/">Common Core</a>. It is to mathematicians <a href="https://www.goodreads.com/quotes/97082-there-are-these-two-young-fish-swimming-along-and-they">as water is to fish</a> -- so encompassing as to be invisible.</p>
+<p>Something so widespread, so familiar -- it's hard to imagine how it could be otherwise. It's difficult to un-see it as anything but function application. But it was not always thus. Someone must have invented this notation, some time in the deep past. Perhaps it came into being when mathematicians were still <a href="https://www.gutenberg.org/files/26423/26423-h/26423-h.htm#img021">drawing their equations evanescently in dust and sand</a>. Perhaps all record has been lost of that ur-application that engendered all later function application expressions. Nonetheless, <em>someone</em> must have come up with the idea.</p>
+<!-- <table style="margin-left: 20px" width="200" align="right" bgcolor="#F7EFE5">
+<tbody>
+<tr>
+<td align="center"><a title="…that ur-application…" href="http://blogs.law.harvard.edu/pamphlet/files/2015/09/IMG_2574.jpg"><img src="{{site.baseurl}}/assets/2015/09/IMG_2574-300x225.jpg" alt="… that ur-application…" width="200"></a></td>
+</tr>
+<tr>
+<td style="text-align: center">
+<span style="color: #999999">…that ur-application…</span><br />
+<span style="color: #999999;font-size: 85%">Photo from the author.</span>
+</td>
+</tr>
+</tbody>
+</table> -->
+<figure class="wrapped-image">
+  <img src="{{site.baseurl}}/assets/2015/09/IMG_2574-300x225.jpg" alt="… that ur-application…" />
+  <figcaption>…that ur-application…</figcaption>
+</figure>
+
+<p>Surprisingly, the origins of the notation are not shrouded in mystery. The careful and exhaustive scholarship of mathematical historian <a href="https://en.wikipedia.org/wiki/Florian_Cajori">Florian Cajori</a> (1929, page 267) argues for a particular instance as originating the use of this now ubiquitous notation. <a href="https://en.wikipedia.org/wiki/Leonhard_Euler">Leonhard Euler</a>, the legendary mathematician and perhaps the greatest innovator in successful mathematical notations, proposed the notation first in 1734, in Section 7 of his paper "<a href="https://books.google.com/books?id=MMwVAAAAYAAJ&amp;pg=PA190-IA4#v=onepage&amp;q&amp;f=false">Additamentum ad Dissertationem de Infinitis Curvis Eiusdem Generis</a>" ["An Addition to the Dissertation Concerning an Infinite Number of Curves of the Same Kind"]. </p>
+<p>The paper was published in 1740 in <em>Commentarii Academiae Scientarium Imperialis Petropolitanae</em> [<em>Memoirs of the Imperial Academy of Sciences in St. Petersburg</em>], Volume VII, covering the years 1734-35. A visit to the Widener Library stacks produced <a href="http://id.lib.harvard.edu/aleph/003823017/catalog">a copy of the volume</a>, letterpress printed on crisp rag paper, from which I took the image shown above of the notational innovation.</p>
+<p>Here is the pertinent sentence (with <a href="http://17centurymaths.com/contents/euler/e045tr.pdf">translation by Ian Bruce</a>.):</p>
+<blockquote><p>
+Quocirca, si \(f\left(\frac{x}{a} +c\right)\) denotet functionem quamcunque ipsius \(\frac{x}{a} +c\) fiet quoque \(dx − \frac{x\, da}{a}\) integrabile, si multiplicetur per \(\frac{1}{a} f\left(\frac{x}{a} + c\right)\).<br>[On account of which, if \(f\left(\frac{x}{a} +c\right)\) denotes some function of \(\frac{x}{a} +c\), it also makes \(dx − \frac{x\, da}{a}\) integrable, if it is multiplied by \(\frac{1}{a} f\left(\frac{x}{a} + c\right)\).]
+</p></blockquote>
+<p>There is the function symbol -- the archetypal \(f\), even then, to evoke the concept of <em>f</em>unction -- followed by its argument corralled within simple curves to make clear its extent. </p>
+<p>It's seductive to think that there is an inevitability to the notation, but this is an illusion, following from habit. There are alternatives. <a href="https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz">Leibniz</a>  for instance used a boxy square-root-like diacritic over the arguments, with numbers to pick out the function being applied: \( \overline{a; b; c\,} \! | \! \lower .25ex {\underline{\,{}^1\,}} \! | \), and even Euler, in other later work, experimented with interposing a colon between the function and its arguments: \(f : (a, b, c)\). In the computing world, <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">"reverse Polish" notation</a>, found on HP calculators and the programming languages Forth and Postscript, has the function symbol following its arguments: \(a\,b\,c\,f\), whereas the quintessential functional programming language Lisp <a href="https://xkcd.com/297/">parenthesizes</a> the function <em>and</em> its arguments: \((f\ a\ b\ c)\).</p>
+<p>Finally, <a href="https://en.wikipedia.org/wiki/ML_(programming_language)">ML</a> and its dialects follow <a href="https://en.wikipedia.org/wiki/Alonzo_Church">Church</a>’s <a href="https://en.wikipedia.org/wiki/Lambda_calculus">lambda calculus</a> in merely concatenating the function and its (single) argument -- \(f \, a\) -- using parentheses only to disambiguate structure. But even here, Euler's notation stands its ground, for the single argument of a function might itself have components, a 'tuple' of items \(a\), \(b\), and \(c\) perhaps. The tuples might be indicated using an infix comma operator, thus \(a,b,c\). Application of a function to a single tuple argument can then mimic functions of multiple arguments, for instance, \(f (a, b, c)\) -- the parentheses required by the <a href="https://en.wikipedia.org/wiki/Order_of_operations">low precedence</a> of the tuple forming operator -- and we are back once again to Euler's notation. Clever, no? Do you see the lengths to which people will go to adhere to Euler's invention? As much as we might try new notational ideas, this one has staying power.</p>
+<h4>References</h4>
+<p>Florian Cajori. 1929. <em>A History of Mathematical Notations</em>, Volume II. Chicago: Open Court Publishing Company.</p>
+<p>Leonhard Euler. 1734. Additamentum ad Dissertationem de Infinitis Curvis Eiusdem Generis. In <em>Commentarii Academiae Scientarium Imperialis Petropolitanae</em>, Volume VII (1734--35), pages 184--202, 1740.</body></html></p>

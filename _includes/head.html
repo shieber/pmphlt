@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}">
   <link rel="stylesheet" href="{{ '/public/css/lanyon.css' | absolute_url }}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | prepend: site.baseurl }}">
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | absolute_url }}">
   <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
@@ -36,4 +37,20 @@
     ga('send', 'pageview');
   </script>
   {% endif %}
+
+  <!-- Enable MathJax support -->
+  <script>
+    MathJax = {
+      tex: {
+	inlineMath: [['\\(', '\\)'], ['$', '$']],
+	displayMath: [['\\[', '\\]'], ['$$', '$$']]
+      },
+      options: {
+	skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script defer
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </head>
