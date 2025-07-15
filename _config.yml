@@ -35,6 +35,9 @@ defaults:
     values:
       comments: true
 
+# Excerpts configuration
+excerpt_separator: "<!--more-->"
+
 # Collections -- add pages
 collections:
   pages:
