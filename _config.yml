@@ -5,7 +5,7 @@ description:         'The occasional pamphlet from the virtual writing-desk of S
 url:		     'https://shieber.github.io'
 baseurl:             '/pmphlt'
 paginate:            5
-permalink:           pretty
+permalink:           /:year/:month/:day/:title/
 
 # About/contact
 author:
