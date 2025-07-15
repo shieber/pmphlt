@@ -30,4 +30,8 @@ defaults:
     values:
       comments: true
 
-# Trigger rebuild
+# # Collections -- add pages
+# collections:
+#   pages:
+#     output: true
+#     permalink: /:title/
