@@ -35,3 +35,5 @@ defaults:
 #   pages:
 #     output: true
 #     permalink: /:title/
+
+# Trigger rebuild
