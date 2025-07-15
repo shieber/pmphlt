@@ -2,8 +2,8 @@
 title:               'The Occasional Pamphlet'
 tagline:             '...on scholarly communication'
 description:         'The occasional pamphlet from the virtual writing-desk of Stuart Shieber, on scholarly communication and other topics.'
-url:		             'https://shieber.github.io'
-baseurl:             '/pmphlt'
+url:		             'https://occasionalpamphlet.com'
+baseurl:             ''
 paginate:            5
 permalink:           /:year/:month/:day/:title/
 
