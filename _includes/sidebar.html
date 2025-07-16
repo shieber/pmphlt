@@ -27,9 +27,24 @@
 
   </nav>
 
+  <!-- Tags link -->
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == '/tags/' %} active{% endif %}" href="{{ '/tags/' | absolute_url }}">Tags</a>
+  </nav>
+
+  <!-- DuckDuckGo Search -->
+  <div class="sidebar-item">
+    <form action="https://duckduckgo.com/" method="get" target="_blank">
+      <input type="hidden" name="sites" value="occasionalpamphlet.com">
+      <input type="text" name="q" placeholder="Search site..." style="width: 100%; padding: 0.5rem; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.1); color: white;">
+    </form>
+  </div>
+
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. See <a href="{{ '/license/' | absolute_url }}">license</a>.
     </p>
   </div>
 </div>
+
+

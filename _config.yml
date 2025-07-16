@@ -40,6 +40,9 @@ excerpt_separator: "<!--more-->"
 
 # Collections -- add pages
 collections:
+  tags:
+    output: true
+    permalink: /tags/:name/
   pages:
     output: true
     permalink: /:title/

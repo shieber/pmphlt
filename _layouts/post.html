@@ -8,6 +8,17 @@ layout: default
   {{ content }}
 </div>
 
+{% if page.tags.size > 0 %}
+<div class="post-tags">
+  <h3>Tags:</h3>
+  <div class="tag-list">
+    {% for tag in page.tags %}
+      <a href="/tags/{{ tag | slugify }}/" class="tag-link">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
 {% if site.related_posts.size >= 1 %}
 <div class="related">
   <h2>Related posts</h2>

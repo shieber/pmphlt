@@ -34,3 +34,185 @@
   width: 100%;
   height: 100%;
 }
+
+/* Post tags styling */
+.post-tags {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid #eee;
+}
+
+.post-tags h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-link {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: #f5f5f5;
+  color: #666;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  transition: all 0.2s ease;
+}
+
+.tag-link:hover {
+  background-color: #e0e0e0;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Tags section styling */
+.tags-tree {
+  margin-top: 0.5rem;
+}
+
+.tag-item {
+  margin-bottom: 0.25rem;
+}
+
+.tag-item a {
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.tag-item a:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* Tag pages styling */
+.tag-page h1 {
+  margin-bottom: 1rem;
+  color: #303030;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.post-preview h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.post-preview h3 a {
+  color: #303030;
+  text-decoration: none;
+}
+
+.post-preview h3 a:hover {
+  text-decoration: underline;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta span {
+  margin-right: 1rem;
+}
+
+.post-excerpt {
+  color: #555;
+  line-height: 1.5;
+}
+
+.tag-navigation {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.back-to-tags {
+  color: #666;
+  text-decoration: none;
+}
+
+.back-to-tags:hover {
+  text-decoration: underline;
+}
+
+/* Tags index page styling */
+.tags-index h1 {
+  margin-bottom: 1.5rem;
+  color: #303030;
+}
+
+.tag-entry {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: none;
+}
+
+.tag-entry h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.tag-entry h3 a {
+  color: #303030;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.tag-entry h3 a:hover {
+  text-decoration: underline;
+}
+
+.tag-count {
+  font-weight: normal;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.tag-posts-preview {
+  margin-left: 1rem;
+}
+
+.post-link {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.post-link a {
+  color: #555;
+  text-decoration: none;
+}
+
+.post-link a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  color: #999;
+  margin-left: 0.5rem;
+}
+
+.more-posts {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.more-posts a {
+  color: #666;
+  text-decoration: none;
+}
+
+.more-posts a:hover {
+  text-decoration: underline;
+}
