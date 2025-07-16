@@ -24,7 +24,12 @@ layout: default
           </div>
           {% if post.excerpt %}
             <div class="post-excerpt">
-              {{ post.excerpt | strip_html | truncatewords: 50 }}
+              {% assign snippet_length = post.snippet_length | default: site.default_snippet_length %}
+              {% if post.excerpt contains '<!--more-->' %}
+                {{ post.excerpt | strip_html | truncatewords: snippet_length }}
+              {% else %}
+                {{ post.excerpt | strip_html | truncatewords: snippet_length }}
+              {% endif %}
             </div>
           {% endif %}
         </article>

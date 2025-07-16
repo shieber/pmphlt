@@ -4,7 +4,7 @@ tagline:             '...on scholarly communication'
 description:         'The occasional pamphlet from the virtual writing-desk of Stuart Shieber, on scholarly communication and other topics.'
 url:	             'https://occasionalpamphlet.com'
 baseurl:             ''
-paginate:            5
+paginate:            15
 permalink:           /:year/:month/:day/:title/
 
 # About/contact
@@ -37,6 +37,7 @@ defaults:
 
 # Excerpts configuration
 excerpt_separator: "<!--more-->"
+default_snippet_length: 50
 
 # Collections -- add pages
 collections:

@@ -4,6 +4,11 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+  <!-- Hero image at top of sidebar -->
+  <div class="sidebar-hero">
+    <img src="{{ '/assets/hero.png' | absolute_url }}" alt="Hero image" class="sidebar-hero-image">
+  </div>
+  
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
@@ -40,9 +45,10 @@
     </form>
   </div>
 
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. See <a href="{{ '/license/' | absolute_url }}">license</a>.
+  <!-- Copyright notice at bottom of sidebar -->
+  <div class="sidebar-item" style="margin-top: auto; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
+    <p style="margin: 0; font-size: 0.875rem;">
+      <a href="{{ '/license/' | absolute_url }}">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</a>
     </p>
   </div>
 </div>

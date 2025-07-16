@@ -37,15 +37,8 @@
 
 /* Post tags styling */
 .post-tags {
-  margin: 2rem 0;
-  padding: 1rem 0;
-  border-top: 1px solid #eee;
-}
-
-.post-tags h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1rem;
-  color: #666;
+  margin: 0.5rem 0 1.5rem 0;
+  padding: 0;
 }
 
 .tag-list {
@@ -56,19 +49,19 @@
 
 .tag-link {
   display: inline-block;
-  padding: 0.25rem 0.75rem;
-  background-color: #f5f5f5;
-  color: #666;
+  padding: 0.15rem 0.5rem;
+  background-color: #f8f8f8;
+  color: #888;
   text-decoration: none;
-  border-radius: 15px;
-  font-size: 0.9rem;
-  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: 1px solid #e8e8e8;
   transition: all 0.2s ease;
 }
 
 .tag-link:hover {
-  background-color: #e0e0e0;
-  color: #333;
+  background-color: #e8e8e8;
+  color: #555;
   text-decoration: none;
 }
 
@@ -215,4 +208,115 @@
 
 .more-posts a:hover {
   text-decoration: underline;
+}
+
+/* Font family overrides */
+html {
+  font-family: "Source Serif Pro", Georgia, "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+/* Always visible sidebar modifications */
+.sidebar {
+  left: 0 !important;
+  visibility: visible !important;
+  z-index: 10;
+  background-color: #4a4a4a !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Ensure content never flows under sidebar */
+.wrap {
+  margin-left: 14rem;
+  width: calc(100% - 14rem);
+  box-sizing: border-box;
+}
+
+/* Sidebar hero image styling */
+.sidebar-hero {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.sidebar-hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Hide the sidebar toggle button since sidebar is always visible */
+.sidebar-toggle {
+  display: none !important;
+}
+@media (min-width: 38em) {
+  .container {
+    max-width: 32rem;
+  }
+}
+@media (min-width: 56em) {
+  .container {
+    max-width: 38rem;
+  }
+}
+
+/* Post link colors */
+.post a,
+.post a:link,
+.post a:visited {
+  color: #8B0000; /* Apple's cayenne color */
+  text-decoration: none;
+}
+
+.post a:hover,
+.post a:focus {
+  color: #8B0000;
+  text-decoration: underline;
+}
+
+.post a:active {
+  color: #5D0000; /* Darker version of cayenne for clicked state */
+}
+
+/* Copyright footer styling */
+.sidebar-item:last-child {
+  margin-top: auto;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 48em) {
+  .sidebar {
+    position: fixed;
+    left: -14rem !important;
+    visibility: hidden !important;
+    z-index: 10;
+  }
+  
+  .wrap {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .sidebar-toggle {
+    display: flex !important;
+  }
+  
+  /* Restore toggle functionality on mobile */
+  #sidebar-checkbox:checked + .sidebar {
+    left: 0 !important;
+    visibility: visible !important;
+    transform: none !important;
+  }
+  
+  #sidebar-checkbox:checked ~ .wrap {
+    margin-left: 14rem;
+    width: calc(100% - 14rem);
+    transform: none !important;
+  }
 }
