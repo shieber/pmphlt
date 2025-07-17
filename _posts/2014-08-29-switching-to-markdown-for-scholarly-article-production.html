@@ -23,7 +23,7 @@ author:
   first_name: Stuart
   last_name: Shieber
 ---
-<p>With few exceptions, scholars would be better off writing their papers in a lightweight markup format called <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, rather than using a word-processing program like Microsoft Word. This post explains why, and reveals a hidden agenda as well.<sup><a id="fnref1" class="footnoteRef" href="#fn1">1</a></sup></p>
+<p>With few exceptions, scholars would be better off writing their papers in a lightweight markup format called <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, rather than using a word-processing program like Microsoft Word. This post explains why, and reveals a hidden agenda as well.<sup><a class="footnoteRef" href="#fn1" id="fnref1">1</a></sup></p>
 <h3 id="microsoft-word-is-not-appropriate-for-scholarly-article-production">Microsoft Word is not appropriate for scholarly article production</h3>
 <!-- <table style="margin-left: 20px" width="200" align="right" bgcolor="#F7EFE5">
 <tbody>
@@ -39,10 +39,10 @@ author:
 </tbody>
 </table> -->
 <figure class="wrapped-image">
-  <img src="{{site.baseurl}}/assets/2014/08/789px-Balance_scale_IMGP9728.jpg" alt="Old two pan balance" />
-  <figcaption>…lightweight…</figcaption>
+<img alt="Old two pan balance" src="{{site.baseurl}}/assets/2014/08/789px-Balance_scale_IMGP9728.jpg"/>
+<figcaption><span class="caption-text">…lightweight…</span> <br/>
+<span class="caption-source">“<a href="http://xkcd.com/329/">Old two pan balance</a>” image from <a href="http://commons.wikimedia.org/wiki/User:Nikodem_Nijaki">Nikodem Nijaki</a> at <a href="http://commons.wikimedia.org/wiki/File:Balance_scale_IMGP9728.jpg">Wikimedia Commons</a>. Used <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">by permission</a>.</span></figcaption>
 </figure>
-
 <p>Before turning to lightweight markup, I review the problems with Microsoft Word as the lingua franca for producing scholarly articles. This ground has been heavily covered. (<a href="http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html">Here’s</a> a recent example.) The problems include:</p>
 <dl>
 <dt>Substantial learning curve</dt>
@@ -83,12 +83,12 @@ author:
 </ol>
 <p><a href="http://blogs.plos.org/mfenner/2012/12/13/a-call-for-scholarly-markdown/">Some</a> have proposed that we need a special lightweight markup language for scholars. But Markdown is sufficiently close, and has such a strong community of support and software infrastructure, that it is more than sufficient for the time being. Further development would of course be helpful, so long as the urge to add “features” doesn’t overwhelm its core simplicity.</p>
 <h3 id="the-hidden-agenda">The hidden agenda</h3>
-<p>I have a hidden agenda. Markdown is sufficient for the bulk of cases of composing scholarly articles, and simple enough to learn that academics might actually use it. Markdown documents are also typesettable according to a separate specification of document style, and retargetable to multiple output formats (PDF, HTML, etc.).<sup><a id="fnref2" class="footnoteRef" href="#fn2">2</a></sup> Thus, Markdown could be used as the production file format for scholarly journals, which would eliminate the need for converting between the authors’ manuscript version and the publishers internal format, with all the concomitant errors that process is prone to produce.</p>
+<p>I have a hidden agenda. Markdown is sufficient for the bulk of cases of composing scholarly articles, and simple enough to learn that academics might actually use it. Markdown documents are also typesettable according to a separate specification of document style, and retargetable to multiple output formats (PDF, HTML, etc.).<sup><a class="footnoteRef" href="#fn2" id="fnref2">2</a></sup> Thus, Markdown could be used as the production file format for scholarly journals, which would eliminate the need for converting between the authors’ manuscript version and the publishers internal format, with all the concomitant errors that process is prone to produce.</p>
 <p>In computer science, we have by now moved almost completely to a system in which authors provide articles in LaTeX so that no retyping or recomposition of the articles needs to be done for the publisher’s typesetting system. Publishers just apply their LaTeX style files to our articles. The result has been a dramatic improvement in correctness and efficiency. (It is in part due to such an efficient production process that <a href="http://hvrd.me/wOnMEq">the cost of running a high-end computer science journal can be so astoundingly low</a>.)</p>
 <p>Even better, there is a new breed of collaborative web-based document editing tools being developed that use Markdown as their core file format, tools like <a href="https://draftin.com/">Draft</a> and <a href="https://www.authorea.com/">Authorea</a>. They provide multi-author editing, versioning, version comparison, and merging. These tools could constitute the system by which scholarly articles are written, collaborated on, revised, copyedited, and moved to the journal production process, generating efficiencies for a huge range of journals, efficiencies that we’ve enjoyed in computer science and mathematics for years.</p>
 <p><a href="https://scholasticahq.com/innovations-in-scholarly-publishing/announcement/one-of-the-biggest-bottlenecks-in-open-access-publishing-is-typesetting-it-shouldn-t-be">As Rob Walsh of ScholasticaHQ</a> says, “One of the biggest bottlenecks in Open Access publishing is typesetting. It shouldn’t be.” A production ecology built around Markdown could be the solution.</p>
 <div class="footnotes">
-<hr>
+<hr/>
 <ol>
 <li id="fn1">Many of the ideas in this post are not new. Complaints about WYSIWYG word-processing programs have a long history. <a href="http://ricardo.ecn.wfu.edu/~cottrell/wp.html">Here’s a particularly trenchant diatribe</a> pointing out the superiority of disentangling composition from typesetting. The idea of “scholarly Markdown” as the solution is also not new. See <a href="http://www.surefoss.org/publishing-publizieren/all-you-need-is-text-markdown-via-pandoc-for-academia/">this post</a> or <a href="https://scholasticahq.com/innovations-in-scholarly-publishing/announcement/one-of-the-biggest-bottlenecks-in-open-access-publishing-is-typesetting-it-shouldn-t-be">this one</a> for similar proposals. I go further in viewing certain current versions of Markdown (as implemented in Pandoc) as practical already for scholarly article production purposes, though I support coordinated efforts that could lead to improved lightweight markup formats for scholarly applications. <strong>Update September 22, 2014:</strong> I've just noticed a post by Dennis Tenen and Grant Wythoff at <em><a href="http://programminghistorian.org/">The Programming Historian</a></em> on "<a href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Sustainable Authorship in Plain Text using Pandoc and Markdown</a>" giving a tutorial on using these tools for writing scholarly history articles.<a href="#fnref1">↩</a>
 </li>
@@ -99,7 +99,7 @@ author:
 <p>To target the style of <a href="http://www.acm.org/publications/latex_style/">ACM transactions</a> instead, the following command suffices:</p>
 <pre><code>pandoc markdownpost.md -V documentclass:acmsmall -o markdownpost-acmsmall.pdf</code></pre>
 <p>Both PDF versions are also attached to this post.<a href="#fnref2">↩</a></p>
-<table width="*" bgcolor="#F7EFE5">
+<table bgcolor="#F7EFE5" width="*">
 <tbody>
 <tr>
 <td align="center"><strong>Attachments</strong></td>
@@ -121,4 +121,4 @@ author:
 </li>
 </ol>
 </div>
-<p>
+<p></p>

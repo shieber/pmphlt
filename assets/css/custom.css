@@ -320,3 +320,32 @@ h1, h2, h3, h4, h5, h6 {
     transform: none !important;
   }
 }
+
+/* Figure caption styling */
+figcaption .caption-text {
+  font-weight: normal;
+  color: #333;
+}
+
+figcaption .caption-source {
+  font-size: 0.8rem;
+  color: #666;
+  font-style: italic;
+}
+
+figcaption .caption-source a,
+figcaption .caption-source a:link,
+figcaption .caption-source a:visited {
+  color: #5a3a3a !important;
+  text-decoration: none;
+}
+
+figcaption .caption-source a:hover,
+figcaption .caption-source a:focus {
+  text-decoration: underline;
+  color: #3d2626 !important;
+}
+
+figcaption .caption-source a:active {
+  color: #2a1a1a !important;
+}
