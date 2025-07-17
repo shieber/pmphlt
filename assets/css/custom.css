@@ -1,21 +1,51 @@
 
 .wrapped-image {
   float: right;
-  margin: 0 0 1em 1em;
-  max-width: 50%;
+  display: table;          /* make this a CSS table */
+  margin: 0 0 1em 1em;     /* gap to the left & below */
+  max-width: 50%;          /* but never more than half the text-block */
 }
 
 .wrapped-image img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  display: table-cell;     /* become the sole table cell */
+  max-width: 100%;         /* never exceed the table's width */
+  height: auto;            /* preserve aspect ratio */
 }
 
 .wrapped-image figcaption {
-  font-size: 90%;
-  color: #777;
-  text-align: center;
+  display: table-caption;  /* pull it out of the table's width calculation */
+  caption-side: bottom;    /* position it below the "table" */
   margin-top: 0.5em;
+  font-size: 0.9em;
+  line-height: 1.4;
+  /* you can force long URLs to break rather than overflow */
+  overflow-wrap: anywhere;
+}
+
+.wrapped-image figcaption br {
+  display: none;  /* hide the line break that's causing extra space */
+}
+
+/* optional styling for your two caption spans */
+.wrapped-image .caption-text {
+  display: block;
+  margin-bottom: 0.3em;
+  font-style: italic;
+}
+
+.wrapped-image .caption-source {
+  display: block;
+  font-size: 0.8em;
+  color: #999;
+}
+
+/* optional: on very narrow viewports, drop the float and go full-width */
+@media (max-width: 600px) {
+  .wrapped-image {
+    float: none;
+    margin: 1em auto;
+    max-width: 100%;
+  }
 }
 
 /* Responsive video container */
@@ -321,7 +351,34 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Figure styling */
+figure {
+  text-align: center;
+  margin: 1.5em auto;
+  max-width: 100%;
+}
+
+/* Override wrapped-image styling for centered figures */
+figure:not(.wrapped-image) {
+  float: none;
+  margin: 1.5em auto;
+  max-width: 100%;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Figure caption styling */
+figcaption {
+  text-align: center;
+  margin-top: 0.5em;
+  max-width: 100%;
+}
+
 figcaption .caption-text {
   font-weight: normal;
   color: #333;
@@ -336,16 +393,16 @@ figcaption .caption-source {
 figcaption .caption-source a,
 figcaption .caption-source a:link,
 figcaption .caption-source a:visited {
-  color: #5a3a3a !important;
+  color: #666 !important;
   text-decoration: none;
 }
 
 figcaption .caption-source a:hover,
 figcaption .caption-source a:focus {
   text-decoration: underline;
-  color: #3d2626 !important;
+  color: #555 !important;
 }
 
 figcaption .caption-source a:active {
-  color: #2a1a1a !important;
+  color: #444 !important;
 }
