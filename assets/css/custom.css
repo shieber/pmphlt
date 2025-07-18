@@ -342,7 +342,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Post link colors */
+/* General link colors - apply to all content */
+.container a,
+.page a,
 .post a,
 .post a:link,
 .post a:visited {
@@ -350,14 +352,34 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.container a:hover,
+.container a:focus,
+.page a:hover,
+.page a:focus,
 .post a:hover,
 .post a:focus {
   color: #8B0000;
   text-decoration: underline;
 }
 
+.container a:active,
+.page a:active,
 .post a:active {
   color: #5D0000; /* Darker version of cayenne for clicked state */
+}
+
+/* Exceptions for specific link types that should keep their original styling */
+.sidebar a,
+.masthead a,
+.pagination a,
+.tag-link,
+.tag-item a,
+.post-preview h3 a,
+.tag-entry h3 a,
+.post-link a,
+.more-posts a,
+.back-to-tags {
+  color: inherit; /* Use the color defined in their specific styles */
 }
 
 /* Copyright footer styling */
