@@ -6,6 +6,14 @@ A Jekyll-based blog about scholarly communication and other topics, maintained b
 
 This is the source code for [The Occasional Pamphlet](https://occasionalpamphlet.com), a blog focused on scholarly communication, open access, academic publishing, and related topics. The blog is built using Jekyll and is based on the Lanyon theme.
 
+### Blog Integration
+
+This site integrates content from two blogs:
+- **The Occasional Pamphlet** - The main blog (2009-present)
+- **The Ground Truth** - A previous WordPress blog (2004-2015) that has been migrated and integrated
+
+Posts from The Ground Truth are tagged with "groundtruth" and styled distinctively to distinguish them from the main blog posts while maintaining a unified reading experience.
+
 ## Site Structure
 
 - **`_posts/`** - Blog posts (dating back to 2009)
@@ -62,6 +70,8 @@ The `scripts/` directory contains various Python utilities for site maintenance:
 - **`fix_redundant_captions.py`** - Remove duplicate caption text
 - **`generate_tag_pages.py`** - Generate tag index pages
 - **`unwrap_posts.py`** - Clean up post formatting
+- **`fix_paragraph_breaks.py`** - Add paragraph tags to posts missing proper formatting
+- **`migrate_wordpress_posts.py`** - Migration script for WordPress posts (reference only)
 
 ### Build
 - **`build.sh`** - Build script for deployment
@@ -80,6 +90,7 @@ The site uses a customized version of the Lanyon Jekyll theme with:
 - Semantic caption styling (`.caption-text`, `.caption-source`)
 - Custom link colors and typography
 - Responsive image handling
+- Ground Truth post styling (pale yellow background for posts tagged "groundtruth")
 
 ## Content Management
 
@@ -93,6 +104,7 @@ The site uses a customized version of the Lanyon Jekyll theme with:
 - Tags are automatically generated from post front matter
 - Tag pages are created using `scripts/generate_tag_pages.py`
 - Tag index is available at `/tags.html`
+- Posts from The Ground Truth are tagged with "groundtruth" for identification
 
 ### Images
 - Store images in `assets/` organized by year/month
@@ -108,7 +120,7 @@ The site is configured for GitHub Pages deployment. The build process:
 
 ## License
 
-Content is licensed under the terms specified in the individual posts and pages.
+See [LICENSE.md](LICENSE.md) for licensing information.
 
 ## Author
 
@@ -116,7 +128,3 @@ Content is licensed under the terms specified in the individual posts and pages.
 - Blog: [The Occasional Pamphlet](https://occasionalpamphlet.com)
 - Website: [stuartshieber.com](https://stuartshieber.com)
 - GitHub: [@shieber](https://github.com/shieber)
-
----
-
-*This site is built with Jekyll and uses the Lanyon theme as a foundation.*
