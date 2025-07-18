@@ -240,6 +240,52 @@
   text-decoration: underline;
 }
 
+/* Groundtruth posts styling */
+.post-groundtruth {
+  background-color: #fef9e7; /* Manila folder color */
+  border-left: 4px solid #f39c12; /* Orange accent */
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.post-groundtruth .post-title,
+.post-groundtruth h1.post-title,
+.post-groundtruth h3 a {
+  color: #8b4513; /* Saddle brown for titles */
+}
+
+.post-groundtruth .post-date,
+.post-groundtruth .post-meta .post-date {
+  color: #a0522d; /* Sienna for dates */
+}
+
+/* Groundtruth info styling (for about page) */
+.groundtruth-info {
+  background-color: #fef9e7; /* Manila folder color */
+  border-left: 4px solid #f39c12; /* Orange accent */
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.groundtruth-info p {
+  margin: 0 0 1rem 0;
+}
+
+.groundtruth-info p:last-child {
+  margin-bottom: 0;
+}
+
+.groundtruth-info a {
+  color: #a0522d; /* Sienna for links */
+  text-decoration: underline;
+}
+
+.groundtruth-info a:hover {
+  color: #8b4513; /* Darker brown on hover */
+}
+
 /* Font family overrides */
 html {
   font-family: "Source Serif Pro", Georgia, "Times New Roman", serif;
