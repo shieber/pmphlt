@@ -1,0 +1,413 @@
+wordpress_comments:
+- author: Eugenio Culurciello
+  content: 'Beautiful. I was thinking the cost would be 100$ or so if you want to
+    pay a bit a webmaster and maybe pay some small amount of consulting for the people
+    running the show (mostly on their own time).
+
+    Now I need to do the same in my area and compete with IEEE.'
+  date: '2012-03-08 14:11:48'
+- author: A
+  content: 'Really grateful to you for writing this. I wonder what reaction if any,
+    would come from the likes of Anderson.
+
+
+    (This post has been widely shared on G+; see e.g.  https://plus.google.com/111327064904383598474/posts/EAkKtKMugtA
+    and its re-shares.)'
+  date: '2012-03-09 21:21:43'
+- author: Kent Anderson
+  content: "Interesting post. Before I respond, I'd like to ask a few more questions:\n\
+    \n1. How much did Microtome Publishing make in revenues in 2011? What was it's\
+    \ margin on these revenues? Who kept this money? Where did it go?\n\n2. Do the\
+    \ people you're raising money from, a) get a tax deduction and b) know that there's\
+    \ a printing subsidiary run by you on the side?\n\n3. How do UCSD, Southern Louisiana,\
+    \ and the University of Minnesota cover the costs of their people serving in roles\
+    \ on this journal? Are there contracts? Or is it all voluntary?\n\n4. How do you\
+    \ explain that your organization's tax-exempt status was revoked because you apparently\
+    \ neglected to file the proper (aka, \"annoying\") paperwork? \n\nThanks."
+  date: '2012-03-12 14:00:05'
+- author: Stuart Shieber
+  content: "@Kent Anderson —\n\n*1. How much did Microtome Publishing make in revenues\
+    \ in 2011? *\n\nNot very much, but enough to cover all its expenses and my time.\
+    \ Surely you're not insinuating that I'm gouging the customers at $.08 per page.\
+    \ Do you know of any other journal that has *decreased* its print prices by a\
+    \ factor of three over the last eight years? And remember, JMLR is an open-access\
+    \ journal; no one needs to pay a penny to read their articles.\n\n*What was it’s\
+    \ margin on these revenues? Who kept this money? Where did it go?*\n\nI kept the\
+    \ money. It went into my pocket, as sole proprietor.\n\n*2. Do the people you’re\
+    \ raising money from, a) get a tax deduction and b) know that there’s a printing\
+    \ subsidiary run by you on the side?*\n\nThere's a bit of a misconception in your\
+    \ question. Microtome is not a \"subsidiary\" of JMLR, Inc. The two are completely\
+    \ separate entities. In fact, Microtome was founded well before it took over *JMLR*'s\
+    \ print version.\n\n(a) As a sole proprietorship Microtome hasn't raised any money\
+    \ from anyone. You'd have to contact JMLR, Inc. to determine if their donors took\
+    \ a tax deduction, but I'd assume so. \n\n(b) The relationship between *JMLR*\
+    \ and Microtome is made explicit on [the front page of the *JMLR* web site](http://jmlr.org/):\
+    \ \n\nFinal versions are published electronically (ISSN 1533-7928) immediately\
+    \ upon receipt. Until the end of 2004, paper volumes (ISSN 1532-4435) were published\
+    \ 8 times annually and sold to libraries and individuals by the MIT Press. Paper\
+    \ volumes (ISSN 1532-4435) are now published and sold by Microtome Publishing.\
+    \ \n\nMy involvement with Microtome is made clear on [the Microtome web site](http://mtome.com/founder.htm)\
+    \ that [JMLR links to](http://mtome.com/).\n\n*3. How do UCSD, Southern Louisiana,\
+    \ and the University of Minnesota cover the costs of their people serving in roles\
+    \ on this journal? Are there contracts? Or is it all voluntary?*\n\nYou'd have\
+    \ to ask them, but my guess is that they cover these people serving in these roles\
+    \ just as they and other universities cover so many of us as reviewers and editorial\
+    \ board members for so many journals published by commercial or non-profit publishers\
+    \ — as unpaid volunteers. As you know, volunteering to review articles for journals\
+    \ and serve on editorial boards and in other editorial positions is something\
+    \ faculty do without pay, without contracts, without compensation of any sort,\
+    \ as part of our perceived duty to the scholarly endeavor. I'm not sure why you\
+    \ find it so hard to believe that all these people are volunteers but they really\
+    \ are.\n\n*4. How do you explain that your organization’s tax-exempt status was\
+    \ revoked because you apparently neglected to file the proper (aka, “annoying”)\
+    \ paperwork?*\n\nMy organization, Microtome Publishing, is and has always been\
+    \ a sole proprietorship, not a non-profit organization. \n\nJMLR, Inc. is a non-profit.\
+    \ I wasn't aware that JMLR, Inc. had lost its nonprofit status until you pointed\
+    \ it out. You'd have to contact them to find out the details, but I understand\
+    \ from Professor Kaelbling that they were late filing their annual report.\n\n\
+    *Thanks.*\n\nYou're welcome."
+  date: '2012-03-16 11:36:36'
+- author: Fernando Pereira
+  content: I'm baffled by Kent Anderson's question 3. I've reviewed papers, been area
+    editor, program committee member, conference area chair, major conference program
+    co-chair for over 30 years. For commercial and nonprofit venues in several areas
+    of computer science and artificial intelligence. During that time, I have been
+    employed by universities, a non-profit research institute, and companies. All
+    of those employers not just accepted my doing that work, they encouraged it as
+    a service to the scientific community. The most consideration I ever got for editorial
+    work from a commercial journal was a free subscription for the duration of my
+    role.  For over 10 years, I have refused to do any such work for venues that are
+    not open access. If my employers and me (on my evenings, weekends, and sometimes
+    vacations) are supporting this service, the least I can ask is that the results
+    of our volunteer effort be available to all without discrimination.
+  date: '2012-03-17 00:59:55'
+- author: Kent Anderson
+  content: "Stuart,\n\nThanks for finally posting my comment and replying. I never\
+    \ got a notification that you did this.\n\nWhile in your initial post you note\
+    \ an unparalleled knowledge of how JMLR runs, you then also note that you were\
+    \ unaware that it had lost its non-profit status. \n\nPart of running a professional\
+    \ journal is having a professional staff managing things like this -- filings,\
+    \ contracts, accounts. I think inept non-profit filings and unawareness of same\
+    \ by key people argues against your assertion that JMLR is \"efficient.\" \n\n\
+    As for your involvement in Microtome, why does JMLR have to raise money to cover\
+    \ its costs if you're generating income to cover your costs and keeping same?\
+    \ Why not return that money to JMLR so funders don't have to bail it out? Are\
+    \ you keeping $7K per year for your \"time\"?\n\nAs for my third question, you\
+    \ have people listed in official roles yet don't understand how they're accomplishing\
+    \ their work or under what terms. That's not efficiency. It's more like ignorance.\n\
+    \nIt's nice there's a little journal like this in computer science, floating papers,\
+    \ getting an impact factor, and so forth. But to run it so that the IRS isn't\
+    \ stripping it of non-profit status, proprietors aren't personally profiting from\
+    \ the non-profit's output (which is illegal, by the way), and key relationships\
+    \ are understood? That might require some work beyond running a posting platform.\
+    \ From where I sit, it doesn't seem like JMLR is up to the task of running a non-profit\
+    \ journal."
+  date: '2012-03-17 11:46:54'
+- author: Leslie Kaelbling
+  content: "Kent,\n\nAs the founder of JMLR, I can elaborate on Stuart's description\
+    \ of our operations.  It is true that I lost track of the paperwork and we have\
+    \ had to file to have non-profit status reinstated.   I do not think this is reflective\
+    \ of the effectiveness or efficiency of the journal as a whole; just minor incompetence\
+    \ on my part.\n\nLike most academic institutions, my department has an expectation\
+    \ that I will do a certain amount of \"service to the field\".  That service is\
+    \ almost always in the form of volunteer reviewing or organizing for journals\
+    \ and conferences.  Although I have never inquired, I assume that all the other\
+    \ editors and reviewers for JMLR are operating in a similar mode.\n\nMicrotome's\
+    \ and JMLR's finances are entirely separate.  We just have a publishing agreement\
+    \ with Microtome.\n\nIn fact, JMLR has received a total of two corporate donations\
+    \ over the course of 12 years: one for $1K and one for $2.5K.  (I mis-remembered\
+    \ the amount when Stuart initially asked me and only just went back to look it\
+    \ up;  I am sorry for any confusion.)  This has been its total outside income.\
+    \  It would have been possible to raise much more in sponsorships from corporations\
+    \ and/or professional societies, who have been eager to support us, but we have\
+    \ seen no need to do so.\n\nI'd be happy to answer any further questions you have.\
+    \  \n\n- Leslie Kaelbling"
+  date: '2012-03-17 12:29:37'
+- author: Stuart Shieber
+  content: 'Kent,
+
+
+    Let''s try this one more time. JMLR, Inc. is a separate company from the two companies
+    (MIT Press and Microtome Publishing) that have performed its print publishing
+    service. So JMLR, Inc. is not "personally profiting from the non-profit’s output
+    (which is illegal, by the way)". Microtome Publishing is charging for print editions
+    of the journal, as every other commercial (and non-profit) publisher does. Doing
+    so is completely consistent with open-access principles (BOAI calls for "free
+    and unrestricted *online* availability"), non-profit status (applicable to MIT
+    Press but not Microtome in any case), transparency (since the arrangement is disclosed
+    at the JMLR website), and law.
+
+
+    I understand how the many people listed in official roles — editors, editorial
+    board, advisory board — are accomplishing their work. They do so just like their
+    counterparts at any other journal do. They volunteer their time. You seem to think
+    donations to a journal constitute a "bailout". Some of us academics might think
+    of the total donated labor contributed to the academic journals of the world a
+    bit of a bailout too. The donations to JMLR, $3,500 total over 12 years, don''t
+    come close to the value of the donated labor to it and to every other academic
+    journal. If we academics stopped "bailing out" the journals of the world (as you
+    would have it), the whole system would collapse.
+
+
+    I don''t understand your concern about returning money to JMLR. The arrangement
+    that Microtome made with JMLR is identical to that of MIT Press before it. Do
+    you complain of MIT Press that it "raises money to cover its costs"? How else
+    would one cover one''s costs except by raising money? The only thing notable about
+    Microtome is how low we''ve been able to keep those costs. If JMLR wanted to take
+    over the print edition and keep the revenue, they could have done so at any time,
+    and can still. As for the $7,000 per year that you hallucinated I pay myself for
+    my time, where did *that* come from?
+
+
+    Finally, and most upsetting, is the unconcealed condescension in your last paragraph
+    ("nice there''s a little journal...floating papers...running a posting platform").
+    JMLR ranks in the 93rd percentile for Impact Factor in its subject area; the Journal
+    of Bone and Joint Surgery ranks in the 90th percentile in its. JMLR is publishing
+    about 3,500 pages per year of scholarly articles, somewhat more than JBJS. Your
+    patronizing attitude toward the work of the many people who make JMLR a leading
+    journal is not, I hope, typical of the view of academic publishers. And I hope
+    it''s not your view of the volunteers who contribute to JBJS''s success too.'
+  date: '2012-03-18 17:51:17'
+- author: Neil Stewart
+  content: Why would Kent Anderson be so quick to criticise the business model of
+    JMLR (which to me looks perfectly transparent, above board and indeed worthy),
+    and yet when Elsevier are criticised for creating fake journals and other dubious
+    practices on a large scale, [he is quick to defend them?](http://scholarlykitchen.sspnet.org/2012/02/02/mysteries-of-the-elsevier-boycott/#comment-43496)
+    It's almost like he has a vested interest in the status quo, and is unwilling
+    to admit that any change to scholarly communications is possible, let alone desirable.
+  date: '2012-03-22 17:45:46'
+- author: Kent Anderson
+  content: 'I can''t examine your not-for-profit filings, because your journal isn''t
+    efficient enough to maintain its basic status in the world. Your non-profit status
+    was apparently revoked because you didn''t file the required paperwork for THREE
+    CONSECUTIVE YEARS. Contemplate that in the light of a claim of efficiency. Part
+    of efficiency is management efficiency, not just doing things cheaply. Cutting
+    corners so severely that you lose your non-profit status isn''t efficiency --
+    it''s sloppiness, as your colleague indicates.
+
+
+    It seems like you''ve been filing for non-profit status without being serious
+    about it. That''s cynical. You should take the status of a charity in the Commonwealth
+    of Massachusetts seriously.
+
+
+    My question about where the money is going centers around what appears to be private
+    (aka, personal) benefit from the activities of a non-profit. I can''t tell if
+    you''re listed as a trustee or as another key figure on your non-profit filings
+    (because your status has been revoked), but if you are, you might be in trouble.
+    And the $7K figure was not "hallucinated" -- it was a figure Kaebling used to
+    quantify donations. My question was specifically if your private benefit from
+    Microtome could have obviated the need for donations.
+
+
+    Another point on efficiency -- your Web site has sections that are clearly out
+    of date.
+
+
+    I''d recommend that you rethink your claims of efficiency. So far, all I see is
+    corner-cutting, a lack of operational know-how, and an outdated Web site that
+    doesn''t even have its current information updated. You may be posting a lot of
+    papers, but you''re not doing some core activities well as a business, management
+    team, or non-profit organization, and if your involvement Stuart is also as a
+    trustee or other key individual at JMLR, my personal and somewhat informed opinion
+    is that your ownership and private/personal benefit from Microtome seems potentially
+    in conflict with the laws dictating how non-profits are to be run.'
+  date: '2012-03-24 18:40:36'
+- author: Dianne
+  content: 'Mr. Anderson,
+
+
+    It appears you are either not reading or comprehending the clearly presented information,
+    and certainly not taking into account the corrections and additional information
+    supplied by representatives of Microtome or JMLR.
+
+
+    First, obvious to this outsider from the information presented, Microtome and
+    JMLR are separate legal entities. The former being a sole proprietorship, not
+    a non-profit. The latter a non-profit with, as you state, a current lapse in that
+    status. (It is still fair to call them a non-profit, assuming the first nine years
+    they did have non-profit status, and given the statement they are attempting to
+    re-establish non-profit status.) Second, Microtome has a business contract with
+    JMLR to produce print copies. JMLR is not entitled to any of the proceeds unless
+    specified in the contract.
+
+
+    As for the donations, it was initially reported to be $7000, but corrected by
+    Kaelbling to be $3500. This a remarkably small amount over an 12-year history.
+    Even $7000 over 12 years is fairly minimal.
+
+
+    To be absolutely clear, I have absolutely no connection to either business or
+    persons involved in the above named organizations. However, I find it bothersome
+    that while you have taken the time to hunt for non-profit status filings, your
+    apparent bias has prevented you from clearly seeing or understanding the information
+    presented. Additionally, your patronizing attitude, such as "you seem to believe
+    in fairies" and "it’s nice there’s a little journal like this in computer science",
+    is completely unprofessional and undermining any shred of credibility you may
+    have once possessed.'
+  date: '2012-03-25 03:58:22'
+- author: Kent Anderson
+  content: 'A few responses:
+
+
+    1. As for my attitude toward Elsevier''s fake journals, we covered it, and shamed
+    them, at the Scholarly Kitchen, both promptly and consistently.
+
+
+    2. My questions about Microtome, Scheiber, and JMLR are multiple. For instance,
+    if JMLR needed $3,500 to manage some activities, and Scheiber was a trustee or
+    key individual at JMLR, and he diverted some revenues from JMLR to himself, this
+    would be a big problem. That''s what I can''t seem to get clear. Contract or no
+    contract, that would be wrong.
+
+
+    3. Asserting that JMLR is still a non-profit despite it having lost that status
+    is an act of imagination. And you wonder why I accused people here of believing
+    in faeries.
+
+
+    4. My credibility isn''t compromised at all. I''ve helped improve and develop
+    many successful journals, created major services that most journals now take for
+    granted, and innovated in many ways over my career. I have no interest in the
+    status quo except those parts that work and need no improvement. You tell me how
+    a shoddy non-profit that can''t manage to file its papers is "innovative" in that
+    regard. Please.
+
+
+    So, someone provide evidence that Scheiber didn''t divert monies from JMLR to
+    himself through his role at JMLR, and I''ll be happy.
+
+
+    Thanks.'
+  date: '2012-03-25 18:01:44'
+- author: Dianne
+  content: 'Mr. Anderson,
+
+
+    Returning to this discussion is likely akin to the proverb about teaching a pig
+    to sing, but it is my time to waste.
+
+
+    The last available public charity (PC) filing for JMLR, Inc. is for fiscal year
+    (FY) 2010, not absent the "THREE CONSECUTIVE YEARS" you claim above. Additionally,
+    the Commonwealth of Massachusetts does not list JMLR, Inc. on either its PC [non-compliance](http://www.mass.gov/ago/docs/nonprofit/july-2011-noncompliance.pdf)
+    or [deactivated](http://www.mass.gov/ago/docs/nonprofit/april-2010-deactivated-organizations.pdf)
+    lists. Furthermore, Massachusetts law ([Part I, Title II, Chapter 12, Section
+    8F](http://www.malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter12/Section8F))
+    states "the trustee or trustees or the governing board of every public charity
+    shall annually, at a time to be determined by the director, file with the division
+    a written report for its last preceding fiscal year". The timing chosen by the
+    director is unknown to me, but it is reasonable to consider that the FY 2011 filing
+    may not actually be late. Another potential is that the annual filing was submitted,
+    but the Massachusetts Attorney General''s office has not yet made it available
+    online. A third option, as mentioned previously, is that filing was delinquent
+    and, given the slow pace of government, the true status is known only to those
+    involved at JMLR, Inc. and the Commonwealth of Massachusetts. Finally, the fourth
+    possibility, is that JMLR, Inc. has indeed lost its non-profit status as you assert.
+    However, if you have proof of your assertion, such as a statement by the Massachusetts
+    Attorney General''s office, of their lost non-profit status please provide it.
+    Otherwise, I stand by my imaginative statement that it is still fair to call JMLR,
+    Inc. a non-profit.
+
+
+    I agree, that if "Scheiber was a trustee or key individual at JMLR, and he diverted
+    some revenues from JMLR to himself, this would be a big problem". However, until
+    partially clarified in your most recent post, your line of inquiry has assumed
+    that Scheiber IS "a trustee or key individual at JMLR" with nothing to support
+    that assumption. I cannot assert Scheiber is not "a trustee or key individual
+    at JMLR", but neither is there evidence to support that he is one. He is not listed
+    on the any of the JMLR board rosters, nor is there any connection to JMLR, other
+    than as JMLR''s archival publisher, listed on any of his internet biographies.
+    Finally, as Kaelbling previously stated, "Microtome’s and JMLR’s finances are
+    entirely separate. We just have a publishing agreement with Microtome". Meaning
+    the revenues gained from publishing belong to Microtome NOT to JMLR, Inc., and
+    any revenue to JMLR, Inc. from publishing is determined by the agreement between
+    JMLR, Inc. and Microtome. If the agreement between JMLR, Inc. and Microtome stipulates
+    that JMLR, Inc. does not receive any share of the revenue Microtome gains from
+    publishing JMLR then there are no "diverted" revenues. Surely you still have questions,
+    and will no doubt continue to raise them.
+
+
+    For the time being this is all the time I am willing to waste.'
+  date: '2012-03-26 01:47:08'
+- author: phd
+  content: "Wow. As a PhD student in the field of AI, I'm surprised about the total\
+    \ lack of good argumentation from Kent. He keeps talking about the printing issue\
+    \ when the main issue is clearly free online access and not printing. \n\nI've\
+    \ never bought a print edition of a Journal. Even one of my favorite books in\
+    \ the field (http://www.stanford.edu/~boyd/cvxbook/), I first printed (because\
+    \ printing at many universities is free for students) and then liked it too much\
+    \ not to have a proper copy."
+  date: '2012-03-26 21:04:08'
+- author: Leslie Kaelbling
+  content: Stuart Shieber does not have, nor has he ever had, any role in JMLR whatsoever.  He
+    has never been an officer, an editor or an associate editor.  We have a simple
+    business agreement that Microtome publishes the hardcopy version of the journal.
+  date: '2012-03-28 16:17:20'
+- author: Kent Anderson
+  content: Thanks. That took awhile, but answers my question.
+  date: '2012-03-28 16:41:02'
+- author: Jakob
+  content: 'I got the link to this interesting discussion from
+
+    http://comments.sciencemag.org/content/10.1126/science.1220395
+
+    and
+
+    http://www.sciencemag.org/content/335/6074/1279
+
+
+    JMRL is to be applauded for being a role model in OA publishing.
+
+
+    What is the motivation of Kent Anderson? His comments almost read like an April
+    fool''s joke - rarely I''ve seen such a hypocritical and patronizing attitude,
+    ignoring almost any valid argument and spitting out irrelevant denigrations.'
+  date: '2012-04-01 14:10:32'
+- author: David Wagner
+  content: I'd like to thank Stuart and Leslie for taking the time to explain the
+    situation with JMLR and provide concrete numbers about its finances.  I find this
+    extremely helpful -- and an inspiring example of service to the research community.  Thank
+    you for your good work!
+  date: '2012-04-03 14:46:02'
+- author: Schenck
+  content: "I'm really stunned at the output here, a journal at the top of it's class\
+    \ and respected in it's field, that's free to access, cheap to get an archival\
+    \ quality print, and involves nothing on it's 'staff' part other than what's normal\
+    \ work for researchers and scientists. I'm really impressed by this, it gives\
+    \ a person hope that this model could potentially spread.\n\nThe only problem\
+    \ seems to be that most scientists and researchers aren't really proficient in\
+    \ self-typsetting, ala LaTeX, or managing such a project. BUT, that sort of stuff\
+    \ seems to slowly be changing Besides comp.sci people, Math & Physics researchers\
+    \ routinely submit to their journals using LaTeX, so maybe it will spread to biologists,\
+    \ chemists, social scientists, etc. Can't see it spreading too easily to Literature\
+    \ types (but who knows).\n\nAlso, I have no background in law or publication,\
+    \ but even I can pretty clearly see that Microtome is what's called a \"Publisher\"\
+    , and JMLR would be what's called a 'client'. I /think/ they'd use this thing\
+    \ called a 'contract' to work out the details of having JMLR printed and distributed.\
+    \ \nIt looks like I can purchase an archival quality print of an entire year's\
+    \ worth of JMLR articles for ~$240. OR I could go to a 'mainstream' publisher\
+    \ and spend $50 for a pdf of a single article. Or, if I wanted to have an Artificial\
+    \ Intelligence article of my own published (and to be clear I don't work in that\
+    \ field), I can submit it for free to one of the top journals in that field with\
+    \ a high impact factor and expect it to be well read and well cited, or I can\
+    \ submit it to a 'mainstream' publisher, pay a fee for things like color images\
+    \ and excess pages, and pay something like $2,000 to allow other people to access\
+    \ the pdf's for free.\n\nIt's pretty clear who's stealing from who in this system."
+  date: '2012-04-26 10:13:07'
+- author: opendna
+  content: 'Kent Anderson writes: "My question about where the money is going centers
+    around what appears to be private (aka, personal) benefit from the activities
+    of a non-profit. I can’t tell if you’re listed as a trustee or as another key
+    figure on your non-profit filings (because your status has been revoked), but
+    if you are, you might be in trouble."
+
+
+    (facepalm) You should really do a state-level corporation search before accusing
+    people of federal tax evasion. The Massachusetts Secretary of State''s website
+    lists all twelve of the JMLR''s Annual Reports (plus Articles of Incorporation),
+    and Stuart Shieber isn''t listed as an officer in a single one.
+
+
+    This is research methods for first-year Arts students.'
+  date: '2012-04-26 16:51:02'

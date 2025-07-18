@@ -1,0 +1,260 @@
+wordpress_comments:
+- author: Kevin Hawkins
+  content: 'I find clause 3 of this model agreement troubling.  This is an agreement
+    between an author and publisher, and clause 3 is binding on the author.  But the
+    author is not in a position to require that everyone in the world cite the original
+    publication.  Perhaps it''s only meant to apply to the author''s use of his/her
+    own works, not to anyone else''s?  If so, it should be made more explicit.
+
+
+    Perhaps, though, the publisher intends to add a statement to the published version
+    of the article saying that it''s licensed under a CC-BY but with the additional
+    requirement that anyone using it cite the original publication.  If you do that,
+    you''re imposing an additional term beyond those in CC-BY, so claiming the article
+    is made available under CC-BY is now a bit of a fib.
+
+
+    Since a publisher representative will also sign the agreement, you might want
+    to require an action of the publisher, such as actually publishing the work in
+    the journal.'
+  date: '2014-02-19 16:25:38'
+- author: Charles Oppenheim
+  content: Very good, but Clause 2 should be amended to read "You hereby grant the
+    publisher a Creative Commons Attribution 4.0 International License...."  I particularly
+    liked Clause 5!
+  date: '2014-02-20 02:52:33'
+- author: Stuart Shieber
+  content: 'Kevin,
+
+
+    Thanks for your comments. The agreement was intended as a model, but some may
+    want to make changes for their purposes. Still, the particular concerns you raise
+    are, I believe, adequately handled in the current language. Here’s why I think
+    so.
+
+
+    I find clause 3 of this model agreement troubling. This is an agreement between
+    an author and publisher, and clause 3 is binding on the author. But the author
+    is not in a position to require that everyone in the world cite the original publication.
+    Perhaps it’s only meant to apply to the author’s use of his/her own works, not
+    to anyone else’s? If so, it should be made more explicit.
+
+
+    Authors certainly are in a position to so require others, simply by relaying the
+    attribution requirement. (Of course, authors are in no position to police compliance
+    with the requirement, but that’s another matter, and they are not required to
+    do so by the agreement.) That could be done simply by the author not deleting
+    the appropriate attribution information that the publisher itself provides in
+    the original article. Nonetheless, this clause was intended as protection for
+    the publisher. If the publisher doesn’t want that protection, it can be dropped.
+
+
+    Perhaps, though, the publisher intends to add a statement to the published version
+    of the article saying that it’s licensed under a CC-BY but with the additional
+    requirement that anyone using it cite the original publication. If you do that,
+    you’re imposing an additional term beyond those in CC-BY, so claiming the article
+    is made available under CC-BY is now a bit of a fib.
+
+
+    That’s exactly what I had in mind. Such a requirement does not go beyond CC-BY,
+    which already specifies in [Section 3.A.1.a.i](http://creativecommons.org/licenses/by/4.0/legalcode#s3)
+    that licensors may require “identification of the creator(s) of the Licensed Material
+    and any others designated to receive attribution, *in any reasonable manner requested
+    by the Licensor*”. (Emphasis added.)
+
+
+
+    Since a publisher representative will also sign the agreement, you might want
+    to require an action of the publisher, such as actually publishing the work in
+    the journal.
+
+
+
+    That’s effectively what the last sentence of paragraph 7 does.'
+  date: '2014-02-20 08:05:25'
+- author: Stuart Shieber
+  content: 'Charles,
+
+
+    Very good, but Clause 2 should be amended to read “You hereby grant the publisher
+    a Creative Commons Attribution 4.0 International License….”
+
+
+
+    I don''t think so. The CC license is not granted to the publisher but to the general
+    public (so that the publisher, and others, can avail themselves of the license).
+
+
+    I particularly liked Clause 5!
+
+
+    Me too. This is the one part of the agreement that I''ve never seen any publication
+    agreement include. It ought to eliminate any worry about published versions being
+    derivative works, and hence requiring separate licenses.'
+  date: '2014-02-20 08:09:26'
+- author: Tibor Tscheke
+  content: 'Hi  Stuart,
+
+
+    this is a great proposal. I do think, that it is a viable agreement and it would
+    be beneficial if adapted by different publishers.
+
+
+    We at ScienceOpen.com will use this agreement for our pblications.
+
+
+    Thanks for your work!
+
+
+    Kind regards
+
+
+    Tibor
+
+
+    outreach for ScienceOpen: @Science_Open
+
+    personal: @tigracc'
+  date: '2014-02-20 08:16:28'
+- author: Micah Vandegrift
+  content: "I think this is a great template. One thing missing that could be included,\
+    \ under section 6:\n\nIf the Work contains any material for which the Author does\
+    \ not hold copyright, and for which the Author has not obtained rights to distribute\
+    \ or make available, use of that material is being claimed as fair use. \n\nThis\
+    \ is included in the standard contract we begin with when working with our journals.\
+    \ It was recommended by a intellectual property law prof here at Florida State."
+  date: '2014-02-20 09:19:16'
+- author: Stuart Shieber
+  content: 'Micah ,
+
+
+    I take it that the intent of this addition to the warrants in Paragraph 6 is that
+    the author would additionally be warranting that the use of the specified material
+    falls under fair use. The idea would be to protect the publisher in case someone
+    came along later and claimed infringement for the material by being able to pass
+    the buck to the author. (“Not our fault. The author told us that it was a fair
+    use.”)
+
+
+    If that’s right, I’d think some wordsmithing would be useful. First, the use of
+    the passive obscures that it is the author who is to be put on record as making
+    the claim of fair use. But more fundamentally, the warrant by the author shouldn’t
+    be the author’s claim of fair use (that’s trivial to provide), but the fair use
+    itself. So, it might be better to rephrase as “If the Work contains any material
+    for which the Author does not hold copyright and for which the Author has not
+    obtained rights to distribute or make available, use of that material is a fair
+    use.”
+
+
+    Such a provision might be a good thing to add, depending on how much additional
+    protection it actually provides to the publisher. And here I have to defer to
+    the experts. Any copyright lawyers want to weigh in?'
+  date: '2014-02-20 11:25:13'
+- author: Kevin Hawkins
+  content: Ah, I had missed the phrase "and any others designated to receive attribution".  That
+    does cover what you're looking for.  So I retract my objections!
+  date: '2014-02-21 15:35:57'
+- author: Peter Hirtle
+  content: "The publishing templates found at http://wiki.publishing.umich.edu/Publishing_Agreements#Section_B:_Sample_agreements_between_authors_and_publishing_partners\
+    \ and used by Michigan still have some advantages over this.  For example, they\
+    \ note that some day there may be better licenses than the Creative Commons license,\
+    \ so they leave the option open for replacing it.\n\nI am not sure Clause 5 is\
+    \ needed, and it may be dangerous.  The changes that a publisher make should never\
+    \ be original enough to warrant their own copyright protection, and it is confusing\
+    \ to suggest they might.  \n\nI really don't like the indemnification clause found\
+    \ in 6(c).  If a lawsuit results, it is going to be because the aggrieved party\
+    \ believes that the publisher has deep pockets.  The publisher is likely to have\
+    \ insurance to protect itself in such an action, but the author will not.  If\
+    \ an author's actions are egregious, the publisher can bring action against the\
+    \ author for failing to live up to the warranty.\n\nClause 7 adds legal mumbo-jumbo\
+    \ that is not needed.  I do like the deadline for publication, however.  That\
+    \ is a clear improvement over the Michigan article template."
+  date: '2014-02-22 14:08:42'
+- author: Matt Austin
+  content: 'Stuart and Micah,
+
+    The "fair use" provision just doesn''t work that way.  As an affirmative defense
+    to infringement, disputes about fair use can only be resolved upon the decision
+    of a court on a case-by-case basis.  The only exception is if the copyright holder
+    ("owner") expressly agrees that it considers a particular use to be covered by
+    fair use, which may then preempt an infringement action. When we talk about "fair
+    use" prospectively, it can never be more than just a claim.
+
+
+    An author who submits an article containing material under copyright by a third
+    party may BELIEVE it to be a fair use, but the only person who can contractually
+    agree that it IS a fair use is the actual copyright holder. This means that the
+    "wordsmithed" version proposed means either that the author has obtained permission
+    or a court order, or that s/he is making an untrue representation in a contract,
+    which is bad news for the author.
+
+
+    Technically, term 6c already addresses this, putting the author on the hook for
+    any use of third party copyrights without permission if that use turns out to
+    be an infringement.  However, Micah is correct that journal publishers do care
+    a great deal about this.
+
+
+    Also, there are some overall drafting and language issues that might be worth
+    addressing in this model agreement to tighten it up (defined terms not capitalized,
+    unusual phrasing, mixed-purpose terms).'
+  date: '2014-02-22 16:38:07'
+- author: Stuart Shieber
+  content: "Peter,\n\nVery useful comments. Thanks for pointing out the Michigan agreement.\
+    \ I hadn't seen that before. It looks like a model approach as well, differing\
+    \ in just a couple of ways.\n\nIt certainly satisfies my desiderata of paragraphs\
+    \ 1, 3, part of 4, and 6, though not 2, the rest of 4, 5, and (as you note) 7.\
+    \ \n\nThe biggest difference is that it does not lead to a grant of an open license\
+    \ to the general public, taking a different approach. The author provides what,\
+    \ as far as I can tell, is a nonexclusive license to the publisher to exercise\
+    \ all of copyright (but why does it take 136 words to do so?), so that the publisher\
+    \ can then grant a CC-BY or other license to the public. This has the advantage,\
+    \ as you say, that if in the future some other license would be preferable to\
+    \ use, the publisher can modify its grant to the public without needing to get\
+    \ further permission from the author. I'd think the odds that a CC-BY will be\
+    \ determined to be insufficiently broad at some time in the future, thereby necessitating\
+    \ the publisher to grant an even broader license, seems like a slim prospect at\
+    \ best. On the down side, the author has no guarantee that the publisher will\
+    \ actually use the rights to grant a broad license. But this is probably not a\
+    \ big deal, for if the publisher reneged on the implicit promise of a CC-BY license\
+    \ in A.3, it would get terrible PR.\n\nParagraph 5, which makes sure that the\
+    \ publisher's version falls under the CC license as well, may be (indeed probably\
+    \ is) unnecessary. Nonetheless, authors often act as if they think they can't\
+    \ distribute publisher versions because of some magic IP dust the publisher sprinkles\
+    \ on it, so clarity may not be a bad thing. You're exactly right that \"The changes\
+    \ that a publisher make should never be original enough to warrant their own copyright\
+    \ protection.\" That's why Paragraph 5 has \"The publisher agrees to verify with\
+    \ you any such edits that are substantive\", so that the author is a participant\
+    \ in any nontrivial changes, the kind that could conceivably (though even still\
+    \ not necessarily) have copyright implications.\n\nSimilarly, I'd be happy to\
+    \ drop the indemnification clause of Paragraph 6, though some journals might not\
+    \ want to do so.\n\nFinally, I would happily drop the extra two sentences of \"\
+    legal mumbo-jumbo\" of Paragraph 7 that go beyond what is in Michigan's Paragraph\
+    \ E, namely \"It will be governed by the laws of […the Commonwealth of Massachusetts…].\
+    \ It will bind and benefit our respective assigns and successors in interest,\
+    \ including your heirs.\" I inherited that from other agreements, but if the lawyers\
+    \ say it's not necessary, it's gone."
+  date: '2014-02-25 15:35:16'
+- author: Stuart Shieber
+  content: 'Matt,
+
+
+    This is exactly what I thought. All that adding the “fair use” clause does is
+    have the authors warrant that all the stuff that doesn’t have explicit permission
+    is a fair use. They would only sign if they believed it to be so, and they’d be
+    on the hook if a court decided otherwise. But as you say, even without the fair
+    use clause, the same would happen. If some material wasn’t explicitly licensed
+    and a court decided it wasn’t a fair use, 6c already would have the authors on
+    the hook.
+
+
+    The defined terms not being capitalized was based on conversation with legal advisers
+    that capitalization is not required (and I always thought it a bit hokey). Is
+    there some legal benefit to the practice? And I appreciate your not wanting to
+    clutter the comment thread with wordsmithing, but I’d happily receive recommendations
+    “[offline](http://www.eecs.harvard.edu/~shieber/contact.html)” for fixing unusual
+    phrasing and mixed-purpose terms too.
+
+
+    Thanks!'
+  date: '2014-02-25 15:43:06'

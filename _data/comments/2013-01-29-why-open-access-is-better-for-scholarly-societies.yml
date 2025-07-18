@@ -1,0 +1,187 @@
+wordpress_comments:
+- author: Adam Etkin
+  content: I see one big problem with your argument, but it's possible you've addressed
+    it and I'm missing it.  For small/medium sized societies who publish only the
+    very best in their field, it would be impossible (as I see it) to maintain that
+    level of quality.  Typically the top journals in their field accept about 10%
+    (give or take) of submitted manuscripts.  The larger, successful OA publishers,
+    PLoS is the prime example, accept 65-70% of all submissions.  Their explanation
+    that they accept research which is "sound" regardless of perceived impact on the
+    field, sounds nice.  However, I've yet to see an OA model which allows a journal
+    to remain selective in what they publish that is also financially viable.  The
+    numbers just don't add up.  I suspect this is the real reason, or at least a big
+    one, such a high percentage is accepted by the "mega" OA journals.  So, societies
+    considering a conversion to OA should consider if they are willing to sacrifice
+    how selective they are and if this lowers the quality of their publications.  If
+    they still wish to move to OA and remain selective, then they must be confident
+    they can make up lost revenue from some other stream beside publishing.  There
+    is NO WAY (that I see) a journal can be highly selective and survive on APC fees.  There's
+    the rub.
+  date: '2013-01-29 19:00:16'
+- author: Stuart Shieber
+  content: 'First, a correction: Although *PLoS ONE*, PLoS''s "megajournal", has a
+    relatively high acceptance rate,  PLoS''s flagship journals *PLoS Biology* and
+    *PLoS Medicine* are highly selective, and their community journals are also quite
+    selective. In fact, there are many selective OA journals that are viable on APCs,
+    this despite the fact that (as I argued in the post) OA journals are currently
+    at a systematic disadvantage as compared to subscription journals.
+
+
+    There is nothing in principle that says that moving a journal to OA must inherently
+    involve a reduction in selectivity to retain sustainability. The reason that OA
+    journals can remain sustainable at high levels of selectivity --- so there is
+    no "race to the bottom" --- is that *journals of higher selectivity can charge
+    higher APCs*, to compensate for the opportunity cost of the APCs from rejected
+    articles. Conversely, reducing selectivity may actually harm the finances of a
+    journal if it reduces the journal''s ability to command high APCs. I''ve shown
+    [in a previous post](http://bit.ly/3ZTgRt) that this positive correlation between
+    selectivity and APC holds in practice. In fact, there are many high quality sustainable
+    OA journals. The "[Cost Effectiveness for Open Access Journals](http://www.eigenfactor.org/openaccess/)"
+    visualization from eigenfactor.org provides a convenient way of exploring OA journals
+    to find examples. And it incidentally corroborates my earlier finding of positive
+    correlation between fee and quality.'
+  date: '2013-01-29 22:07:33'
+- author: Adam Etkin
+  content: You're correct about PLoS ONE vs. the other PLoS journals, however I still
+    feel that without PLoS ONE, PLoS wouldn't be financially sustainable.  I will
+    need to take a look at the links you've provided (thank you), but I am highly
+    skeptical that APCs can really be raised to the level needed for an OA journal
+    to stay afloat without a dramatic increase in acceptance rate, and that makes
+    me very nervous.
+  date: '2013-01-29 23:08:26'
+- author: Richard Van Noorden
+  content: "Re: 'That’s not just my opinion. Claudio Aspesi, senior analyst at Sanford\
+    \ Bernstein studying the finances of publishing companies, has estimated that\
+    \ a transition to open access would lead to Elsevier cutting its margins by 41–89%.'\
+    \ \n\nOK, but be aware that other analysts don't think the margins will drop as\
+    \ much as Aspesi does. You can pick his view, but you're cherry-picking. (His\
+    \ view is open-access, which is everyone is citing it, I suppose!)"
+  date: '2013-01-30 14:22:31'
+- author: Richard Van Noorden
+  content: "Another nitpick to what is a really nice article. You cannot divide $8\
+    \ billion in revenues by 1.5 million articles to conclude a cost of around $5000\
+    \ per article. That is because those revenues were not gained just on 'articles\
+    \ published in one year', but on the entire set of articles to which publishers\
+    \ are offering libraries access. \n\nA bottom-up analysis of the cost-per-article\
+    \ for subscription journals in 2008 came out at around £2,634 ($3951 with the\
+    \ 1-1.5 conversion of the time, or $4154 with today's currency exchange). http://liber.library.uu.nl/index.php/lq/article/view/8010/8350\n\
+    \nAnyway, still true that money should be saved with the greater efficiency of\
+    \ a more transparent and competitive APC market."
+  date: '2013-01-30 16:47:34'
+- author: Björn Brembs
+  content: 'Excellent post!
+
+    I''d only like to add one important detail (also with respect to some of the comments
+    above): there is no evidence backing up the notion of any inherent difference
+    in ''quality'' between journals. We have recently surveyed the empirical literature
+    on the mater and at best, journal rank is not predictive of ''quality'' if all
+    the available metrics are taken into account. If anything, a trend can be observed
+    that - counterintuitively - the science published in high ranking journals has
+    a higher chance of being of ''lesser'' quality than that published in lower ranking
+    journals:
+
+    http://arxiv.org/abs/1301.3748
+
+
+    I think the data you present make it unambiguously clear that corporate publishers
+    are overcharging the public purse for their services. Bibliometric data are equally
+    unambiguous that the ranking of journals is like homeopathy, astrology or dowsing:
+    subjectively, we might feel inclined to trust any personally experienced effects,
+    but these effects disappear upon scientific scrutiny.'
+  date: '2013-01-31 02:07:46'
+- author: Anna Sharman
+  content: 'Thanks for a very informative post, in fact the best I''ve seen yet on
+    the economics of scholarly publishing.
+
+
+    I''d like to respond to Adam Etkin''s point that "There is NO WAY (that I see)
+    a journal can be highly selective and survive on APC fees." There is a way: a
+    small fee charged for all authors who submit to the journal, even if their paper
+    is rejected (combined with APCs). Few journals use this mechanism at the moment,
+    but for a highly selective journal it seems feasible to me. The main barrier to
+    journals charging submission fees may be simply that none of them want to be the
+    first to try it. I''ve reviewed the pros and cons of submission fees on my blog
+    at https://sharmanedit.wordpress.com/2012/03/21/submission-fees/'
+  date: '2013-01-31 08:05:17'
+- author: John Mark Ockerbloom
+  content: 'Very interesting and thought-provoking article!  Though there''s one important
+    bit where we need to talk through things a little further.
+
+
+    In the "transition" section, you say
+
+
+    "When there are both kinds of journals in the market, both subscription journals
+    and open-access journals, the open-access journals are at a competitive disadvantage
+    [from the author''s point of view]."
+
+
+    But it''s not clear to me that we''re going to end up in a state where this is
+    *not* the case.  If subscription journals don''t go away altogether (and why would
+    they, if they''re at an advantage for attracting authors, and libraries are still
+    buying *some* things?), then open-access journals need to be viable over the long
+    term in a mixed journal economy.  Or, OA journals need to develop enough of a
+    comparative advantage that subscription journals become a small part of the scholarly
+    commmunications process that doesn''t threaten OA or library budgets (even if
+    new subscription journals come along).
+
+
+    I can think of some possible ways this shift in OA journal viability and attractiveness
+    could happen, though they''re by no means sure things.  We should discuss how
+    this transition could work, because unless there are some further changes to the
+    way scholarly communication is conducted and funded, I don''t see "all scholarly
+    journals are open access" as a stable equilibrium.'
+  date: '2013-01-31 08:18:05'
+- author: Adam Etkin
+  content: Anna, thank you for the response.  Charging submission fees, in my opinion,
+    will only result in a very small additional revenue stream.  Nothing that would
+    have a large enough impact to be sustainable long term.  Also, remember this blog
+    specifically speaks to Societies.  Are organizations going to start charging submission
+    fees on top of membership dues?  Is the fee waived or reduced for members?  It's
+    a good idea, one already in use by both NFPs and for-profit publishers, but again
+    I do not think revenue from this area makes much of a difference.
+  date: '2013-01-31 13:04:30'
+- author: Martin Haspelmath
+  content: 'Very informative article, but Shieber seems to forget about one important
+    problem: He says that "(with OA) pricing is controlled not at the level of the
+    bundle of journals. You don’t care about the bundle of the publisher when you’re
+    an author submitting to a journal. You care about the journal."
+
+    But of course commercial publishers are interested in selling OA services to authors
+    or their proxies in bundles as well: What we''ll see increasingly is Elsevier
+    and the like offering universities discounts on APCs if the universities pay on
+    the basis of the number of their employees (or similar measures). Universities
+    may feel they have to accept these offers, and in practice this may mean that
+    if I publish in an Elsevier journal, I can do so without paying at all, whereas
+    if I want to publish in a small nonprofit OA journal, I have to pay it out of
+    my own research budget. So there will continue to be pressure on scholarly associations
+    to join the big players, and they can continue to sell their journals in bundles.
+    (For an example affecting my own institution, see http://www.degruyter.com/dg/page/75/aktuelle-presseinformationen)'
+  date: '2013-02-01 03:22:14'
+- author: Matthew Cockerill
+  content: 'Adam,
+
+    You raise an important point. I would argue that the OA model usefully highlights
+    the expense and profligacy involved in running a high-calibre journal which rejects
+    90% of all articles, if nothing is done to ensure that an outlet exists for the
+    significant subset of the rejected articles which are scientifically sound and
+    (after suitable revision) suitable for publication, just not in the highest-ranked
+    journal.
+
+
+    BioMed Central helps societies to efficiently manage transfer of a subset of rejected
+    articles (including the peer review reports) from their high rejection rate titles,
+    for consideration by more inclusive sister titles. This provides an improved experience
+    for authors, makes more efficient use of reviewer and editor time, and ensures
+    that the economics of open access publication work for the society and the publisher,
+    even in the case of high rejection-rate flagship journals.'
+  date: '2013-02-02 11:08:14'
+- author: Moshe Vardi
+  content: '" As a library, what are you going to do? Cancel scholarly society journals,
+    just as the societies have been rightly complaining about."
+
+
+    Stuart, do you have data to back this claim? Are society journals really under
+    stress more than commercial journals? From what I see with ACM the pressure comes
+    from members, not from libraries.'
+  date: '2013-03-21 12:06:08'

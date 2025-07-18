@@ -1,0 +1,68 @@
+wordpress_comments:
+- author: Fernando Pereira
+  content: I don't think this adds up. Consider a typical academic CS research group
+    with one professor and a few graduate students. As is typical, as a conference
+    deadline approaches, they have several papers in the works, say four, in different
+    states of completion; maybe one is in very good shape, two in fair shape, and
+    the other in poor shape (these are again typical numbers in my experience). If
+    just one paper is accepted, the professor and one student attend the conference,
+    at a typical cost of $4000 for travel, accomodation, and conference registration.
+    If three papers are accepted, maybe the professor and three students attend, at
+    a total cost of $8000. Compared with those costs, the difference between $50 and
+    $200 is utterly trivial; just a couple of slightly better meals, or a cab to the
+    airport instead of the shuttle, would make the difference. The only way this could
+    work would be to have submission charges that are significant relative to the
+    other costs of paper creation and presentation. But if the charges were that high
+    for a given venue, then 1) other venues would undercut it, and 2) rejections would
+    lead to open warfare with authors claiming they were swindled of their fees by
+    inappropriate rejections. The lack of incentive alignment between getting as much
+    from submission fees as possible and doing as little in reviewing as possible
+    would be very destructive of already fragile institutions.
+  date: '2009-06-16 00:30:39'
+- author: Thomas Schiex
+  content: 'Yes, I do think we need to introduce some viscosity in submission as the
+    energy required for reviewing is such that it hampers reviewing quality and lowers
+    publication quality. It also takes too much time from reviewers.
+
+
+    I must say that I don''t like "cash-based" restriction mechanisms. Even if special
+    waivers are enforced, there are side-effects (threshold effects, imperfect waiving
+    design...) that may prevent somebody from publishing for financial reasons although
+    the work is good.
+
+
+    One approach to this problem would be to create a virtual money (easy to manage
+    thanks to IT and the web). Each scientist that wants to publish should subscribe
+    to a central worlwide website. He will get an initial fund of (let say) 30 points.
+    Each submission costs 6 points. If the paper is accepted, you get 3 points back.
+    If it is rejected you get nothing. If you don''t like these numbers for some reason,
+    they can be changed.
+
+
+    Every year, you may get a donation that brings your account to 12 points (if lower)
+    from the web site. A paper with multiple authors requires payment by all authors,
+    with a (possibly non linear) discount based on the # of authors.
+
+
+    The number one difficulty is to make this "virtual money" acceptable by major
+    journals and conferences. But the scheme is otherwise simple to implement in terms
+    of required IT. The name/affiliation appearing on the paper published would be
+    directly taken form the central website, preventing "fake accounts".
+
+
+    There is also no way in the scheme presented to make this virtual money "real"
+    (contrarily to second life money).'
+  date: '2009-06-18 04:40:19'
+- author: Fernando Pereira
+  content: '@Thomas Schiex: Variants of your idea have been floating around the computer
+    science community for decades; the most common variant has authors earn points
+    by reviewing, rather than than having their accounts topped up yearly. However,
+    in my opinion the main problems in computer science are (1) peak reviewing load
+    caused by conference deadlines, and (2) lack of reviewing history for submission
+    across different conferences and years of the same conference, leading to much
+    redundant reviewing.  Stuart''s and your proposal try to manage total load, which
+    in my view is much less of an issue. Indeed, a major CS conference, VLDB, is in
+    the process of switching to a year-round, fast-publishing electronic journal submission
+    format, with the annual conference being just the aggregation of papers accepted
+    the previous year, in an effort to correct the problems I mentioned.'
+  date: '2009-06-18 11:47:45'

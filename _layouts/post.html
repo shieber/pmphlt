@@ -37,19 +37,86 @@ layout: default
 </div>
 {% endif %}
 
-{% if page.comments %}
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = "{{ site.url }}{{ site.baseurl }}{{ page.url }}";
-      this.page.identifier = "{{ page.url }}";
-    };
-    (function() {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view Disqus comments.</noscript>
+{% comment %}
+  Load WordPress comments from external YAML file based on post slug
+{% endcomment %}
+{% assign url_parts = page.url | split: '/' %}
+{% assign post_slug = url_parts[1] | append: '-' | append: url_parts[2] | append: '-' | append: url_parts[3] | append: '-' | append: url_parts[4] %}
+{% assign comment_file = post_slug | append: '.yml' %}
+{% assign comments_data = site.data.comments[post_slug] %}
+
+
+
+{% if comments_data.wordpress_comments %}
+<div class="archived-comments">
+  <h3>Archived Comments ({{ comments_data.wordpress_comments.size }} comments)</h3>
+  <p class="archive-notice"><em>These comments were imported from the previous WordPress version of this blog.</em></p>
+  
+  {% for comment in comments_data.wordpress_comments %}
+    <div class="archived-comment">
+      <div class="comment-meta">
+        <strong>{{ comment.author }}</strong>
+        <time>{{ comment.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+      </div>
+      <div class="comment-content">
+        {{ comment.content | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
 {% endif %}
+
+{% comment %}
+  Add Giscus for new comments
+  Only show for posts that allow comments (default: true)
+{% endcomment %}
+
+<!-- DEBUG: Comments settings -->
+<div style="background: #f0f0f0; padding: 1rem; margin: 1rem 0; border: 1px solid #ccc;">
+  <strong>Debug - Comments Info:</strong><br>
+  page.comments: {{ page.comments }}<br>
+  page.comments != false: {{ page.comments != false }}<br>
+  Post date: {{ page.date }}<br>
+  Current time: {{ site.time }}<br>
+  Post timestamp: {{ post_timestamp }}<br>
+  Current timestamp: {{ current_timestamp }}<br>
+  Post age seconds: {{ post_age_seconds }}<br>
+  Post age days: {{ post_age_days }}<br>
+  Post age < 3650: {{ post_age_days < 3650 }}<br>
+  page.comments_always_open: {{ page.comments_always_open }}
+</div>
+
+{% if page.comments != false %}
+  {% comment %}Skip age check for now - enable all posts for testing{% endcomment %}
+  {% assign post_age_days = 0 %}
+  
+  {% if post_age_days < 3650 or page.comments_always_open %}
+    <div class="new-comments-section">
+      <h3>{% if comments_data.wordpress_comments %}New Comments{% else %}Comments{% endif %}</h3>
+      <div class="giscus-container">
+        <script src="https://giscus.app/client.js"
+          data-repo="shieber/pmphlt"
+          data-repo-id="R_kgDOJqXqXQ"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOJqXqXc4CbqXq"
+          data-mapping="title"
+          data-term="{{ page.title | escape }}"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="preferred_color_scheme"
+          data-lang="en">
+        </script>
+      </div>
+    </div>
+  {% else %}
+    <div class="comments-closed">
+      <p><em>Comments are closed for this post. The discussion period has ended.</em></p>
+    </div>
+  {% endif %}
+{% endif %}
+
+{% comment %}
+  Comments section will be added back later with Giscus
+{% endcomment %}

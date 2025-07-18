@@ -1,0 +1,69 @@
+wordpress_comments:
+- author: Margy MacMillan
+  content: Hi - intriguing ideas here, especially the voucher system. A complicating
+    factor may be that most institutional libraries get most of their journals as
+    bundled subscriptions, either from publishers, or from database vendors, not as
+    individual journal subscriptions. This is further complicated by the fact that
+    many license these collections as part of multi - institutional consortia. These
+    are not insurmountable issues but they need to be considered.
+  date: '2014-03-29 07:31:42'
+- author: Stevan Harnad
+  content: 'No viable transitional model to Gold OA unless Green OA is (successfully)
+    mandated first:
+
+
+    Harnad, S. (2007) The Green Road to Open Access: A Leveraged Transition. In: Anna
+    Gacs. The Culture of Periodicals from the Perspective of the Electronic Age. L''Harmattan.
+    99-106. http://eprints.ecs.soton.ac.uk/13309/
+
+
+    Harnad, S. (2010) No-Fault Peer Review Charges: The Price of Selectivity Need
+    Not Be Access Denied or Delayed. D-Lib Magazine 16 (7/8). http://eprints.ecs.soton.ac.uk/21348/
+
+
+    Harnad, Stevan (2013) The Postgutenberg Open Access Journal (revised). In, Cope,
+    B and Phillips, A (eds.) The Future of the Academic Journal (2nd edition). 2nd
+    edition of book  Chandos. http://eprints.soton.ac.uk/353991/'
+  date: '2014-03-29 16:20:41'
+- author: Falk Reckling
+  content: "Hi Stuart, \n\nthe Austrian Science Fund (FWF) together with the Austrian\
+    \ Library Consortium have just started such a pilot with IOP Publishing, see:\
+    \ http://ioppublishing.org/newsDetails/Austria-open-access \nThe pilot goes three\
+    \ years and we are keen to see how it works.\n\nBest Falk"
+  date: '2014-03-30 08:19:55'
+- author: Stuart Shieber
+  content: '@Margy: The natural extension to bundles and consortia would be to cover
+    OA publication fees for authors at any institution in theconsortkum for articles
+    in any journal in the bundle. As it turns out, this seems to be what the Austrian
+    Science Fund has arranged with IOP (as mentioned in Falk Reckling''s comment).
+    IOP doesn''t seem to provide this arrangement with all of its subscribers, however,
+    so it remains primarily a hybrid, not transitional, publisher. (They do publish
+    a couple of fully OA journals, *New Journal of Physics* and *Environmental Research
+    Letters*.)
+
+
+    There are still problems having to do with how the fee offsets would be allocated
+    among the consortium members, especially when it gets to partially recovered articles.
+    It certainly increases the complexity of the problem.'
+  date: '2014-03-31 11:12:09'
+- author: Stuart Shieber
+  content: '@Stevan: Your favored green approach to OA (which I also support) is,
+    of course, completely consistent with publishers offering this transitional OA
+    model.'
+  date: '2014-03-31 11:12:54'
+- author: Stuart Shieber
+  content: '@Falk: I hope this works well. I''d love to see it generalized to all
+    IOP''s subscribers (and other publishers as well).'
+  date: '2014-03-31 11:13:56'
+- author: Roddy MacLeod
+  content: 'These two links may be of interest: This http://www.journaltocs.ac.uk/API/blog/?p=1154
+    and this http://roddymacleod.wordpress.com/2014/04/08/automated-identification-of-open-access-oa-articles-from-hybrid-journals-demonstrated/
+    address issues of visibility of new OA articles in hybrid journals.'
+  date: '2014-04-15 07:36:43'
+- author: Stuart Shieber
+  content: '@Roddy: It’s certainly a laudable effort to uncover open-access articles
+    at hybrid journals – especially since the publishers themselves seem to do [all
+    they can to hide their open-access status](http://www.techdirt.com/articles/20140319/11185526626/elsevier-still-charging-open-access-copies-two-years-after-it-was-told-problem.shtml)
+    – but unfortunately, there’s a more fundamental problem here. A band-aid isn’t
+    a cure for systemic illness.'
+  date: '2014-04-15 09:12:01'

@@ -1,0 +1,85 @@
+wordpress_comments:
+- author: Stevan Harnad
+  content: 'NAPSTER REDUX
+
+
+    There is a very simple way to distinguish the OA movement from piracy, bootleg
+    and other "guerilla" movements. It was already pointed out in 2000 http://bit.ly/OA2000
+    when "napster" was not yet the domesticated main-streamer that later re-appropriated
+    the name http://bit.ly/napster2000 :
+
+
+    "Author-end give-aways of their own digital products via self-archiving is the
+    antithesis of consumer-end rip-offs of others'' non-give-away digital products
+    via napster or gnutella.
+
+
+    "It is very important to clearly distinguish and distance the two http://bit.ly/givetake
+    because any inadvertent or willful conflation of the self-archiving initiative
+    with napster can only retard the progress of the self-archiving initiative toward
+    the optimal and inevitable.
+
+
+    "(''Information is free'' is nonsense: There is and always was both give-away
+    and non-give-away information. Steal the latter and you simply kill the incentive
+    to provide it in the first place.)"'
+  date: '2011-07-29 07:13:13'
+- author: Dorothea Salo
+  content: 'To clarify: JSTOR used to be supported by foundations (notably Mellon),
+    but it''s currently supported by library dollars via subscription. This is how
+    Mellon typically operates, offering startup money but insisting that the resulting
+    service wean itself off that money as quickly as possible.
+
+
+    I believe librarians and academics should start asking the Mellon Foundation hard
+    questions about why their startup schemes invariably lead to toll-access databases...
+    and make clear that we are prepared to support open-access ones at cost.'
+  date: '2011-07-29 07:35:52'
+- author: Stuart Shieber
+  content: "@Dorothea: You are of course exactly right about JSTOR's funding history\
+    \ and business model. And I too would be completely supportive of a JSTOR transition\
+    \ to an open-access revenue model. It's well worth thinking through how this might\
+    \ be done. (That's just what I mean about \"thoughtful efforts\".) \n\nBut it's\
+    \ worth noting that there are hard unanswered questions to be resolved: What revenue\
+    \ model would that be, and who is the \"we\" who are prepared to support it? To\
+    \ date there is really no extant proven applicable OA model for a JSTOR. The publication-fee\
+    \ model used by OA journals only applies where the costs can be tied to individual\
+    \ authors. The crowdfunding models (Bloomsbury, gluejar) aren't applicable where\
+    \ comprehensiveness of coverage is desired. The endowment model has only ever\
+    \ been tried on a much smaller scale project, the Stanford Encyclopedia of Philosophy.\
+    \ (Ithaka Harbors spends $30M on program services. Even if only a quarter of that\
+    \ is running JSTOR, underwriting that would require an endowment of about $150M,\
+    \ or about $1M per ARL library.) The SCOAP3 flipped model hasn't yet been successfully\
+    \ deployed and has an unresolved free-rider problem, though if it actually takes\
+    \ off and turns out to work, it could be the ideal model for an OA JSTOR.\n\n\
+    In summary, we really need some creative thinking about how to open up access\
+    \ to JSTOR and similar projects."
+  date: '2011-07-29 09:03:42'
+- author: Dorothea Salo
+  content: 'SCOAP3 isn''t the only cooperative funding model being tried; look at
+    Cornell and arXiv. Academic libraries are also moving a fair amount of their purchasing
+    to consortial and other collaborative models, the logical extreme of which is
+    "buy everything for everyone."
+
+
+    I don''t mean to diminish the challenge here. I''m as disappointed as anyone that
+    academic libraries haven''t started asking and answering "how do we free the literature?"
+    questions.
+
+
+    I do think there is potential, though, and I salute SCOAP3 and arXiv for blazing
+    trail.'
+  date: '2011-07-29 13:31:46'
+- author: Allen Riddell
+  content: 'Just for the record, JSTOR DFR is a wonderful service but it can''t compete
+    with full text access. There are many kinds of text/data mining that can''t be
+    performed without the full text. Examples would include: coreference resolution
+    and named entity recognition (finding people and place names mentioned in an article).
+
+
+    I think if copyright was reformed---perhaps along lines suggested by Lessig or
+    Boyle (~25 year term, once renewable), it might be saved from itself. I also think
+    the chances of reform in the next ten to fifteen years are negligible. It really
+    is an unfortunate situation, but certainly one that helps explain the energy of
+    those advocating guerilla open access.'
+  date: '2011-08-03 08:27:59'

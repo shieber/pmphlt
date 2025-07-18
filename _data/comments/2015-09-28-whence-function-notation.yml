@@ -1,0 +1,28 @@
+wordpress_comments:
+- author: Ingo Blechschmidt
+  content: 'There are in fact arguments that one should use the notation "(x)f" instead
+    of "f(x)". This proposal harmonizes the reading direction (from left to right)
+    with the data flow: The input "x" is given to "f" which produces an output.
+
+
+    This is especially useful when composing functions. A complex function "h" might
+    be the composite of simpler functions "f" and "g": "h(x) = g(f(x))". This means
+    that "x" is first given to "f", which produces an intermediate value, which is
+    then given to "g". Notice that the flow of data doesn''t match the reading direction.
+    In the alternate proposal, the equation would read "(x)h = ((x)f)g".
+
+
+    In several branches of mathematics, so called "commutative diagrams" are an important
+    visualization aid. Reversing the traditional notation would help with translating
+    those diagrams to formulas and back.'
+  date: '2015-09-29 14:59:09'
+- author: asd
+  content: '>Because everyone who has ever gotten through eighth grade math has been
+    taught this notation.
+
+
+    "everyone in the US", you mean.'
+  date: '2015-09-29 17:47:05'
+- author: Stuart Shieber
+  content: I'm pretty sure this notation is used (and taught) outside of the US too.
+  date: '2015-10-02 21:50:20'

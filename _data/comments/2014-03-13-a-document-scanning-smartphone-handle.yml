@@ -1,0 +1,11 @@
+wordpress_comments:
+- author: arlo
+  content: Your video does not run on an iPad 2... odd, since both things appear to
+    be mac.
+  date: '2014-03-13 12:27:24'
+- author: Stuart Shieber
+  content: You're right. That seems to be a problem with how WordPress does the conversion.
+    I've placed [a copy up at Vimeo](https://vimeo.com/88991265), which seems to play
+    fine on the iPad. I'll look into embedding that version instead of the current
+    one.
+  date: '2014-03-13 13:51:05'

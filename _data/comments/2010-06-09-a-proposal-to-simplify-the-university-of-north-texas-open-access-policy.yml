@@ -1,0 +1,87 @@
+wordpress_comments:
+- author: Stevan Harnad
+  content: "USEFUL  CLARIFICATIONS AND SIMPLIFICATIONS: BUT PRACTICAL CONTINGENCIES\
+    \ STILL THREE, NOT TWO\n\nStuart Shieber's recommendations are very good and their\
+    \ spirit should be followed, because that would indeed simplify and clarify the\
+    \ UNT policy, currently somewhat longer and more complicated than it needs to\
+    \ be. \n\nBut there is an even simpler way to put it (though it does involve three\
+    \ components, not just two): (1) Immediate deposit required. (2) Immediate OA\
+    \ strongly recommended, but not required. (3) Rights retention and license strongly\
+    \ recommended, but not required. That's all. \n\nStuart's recommendations for\
+    \ simplifying the rights reservation and licensing details are well taken; and\
+    \ they do make the policy as a whole more consistent and coherent. But (1) and\
+    \ (3) alone, leaving out (2), would not make it clear enough to authors what the\
+    \ real contingencies are, even though Stuart is quite right that, by implication,\
+    \ (2) is in a sense implicit in (3). Waiving (3), however, does not entail waiving\
+    \ (2), any more than waiving (2) or (3) implies waiving (1).\n\nThere is no Harvard-style\
+    \ vs Harnad-style approach. That initial difference  vanished completely as soon\
+    \ as the Harvard mandate added an immediate-deposit requirement, without waiver,\
+    \ to its original license requirement, with waiver: http://bit.ly/HarvardOA\n\n\
+    The rest is just about clarifying the contingencies. (1) Yes, you have to deposit\
+    \ immediately, no matter what. (2) No, you don't have to make the deposit OA immediately,\
+    \ if you have reason not to; it is just strongly recommended. (3) No, you don't\
+    \ have to reserve the specified rights and grant the license if you have reason\
+    \ not to, it is just strongly recommended. \n\nI think the current Harvard version\
+    \ still does not make the three contingencies sufficiently clear and explicit\
+    \ (although they are latent in the Harvard FAQ), whereas the UNT version does.\
+    \ Streamlined along the lines Stuart suggests, UNT will do so even better.\n\n\
+    Ceterum censeo, I am confident that the extra rights that Harvard seeks in (3)\
+    \ (basically amounting to \"Libre OA\") will eventually come with the IDOA territory,\
+    \ following as a natural matter of course, with time, once the IDOA version of\
+    \ the OA mandate becomes widely adopted. IDOA guarantees only about 63% immediate\
+    \ Gratis OA plus 37% \"Almost-OA\" today. But once it is universally adopted,\
+    \ the rest of the dominoes will fall, leading first to 100% Gratis OA, and then\
+    \ to as much Libre OA as authors and institutions want and need. The trick is\
+    \ to come up with a policy model, today, that is strong enough to do the trick\
+    \ -- not so strong as to impede or retard universal adoption, but strong enough\
+    \ to ensure compliance: I think the UNT version (with Stuart's recommended tightening)\
+    \ will prove to be that optimal model."
+  date: '2010-06-10 09:30:02'
+- author: Stuart Shieber
+  content: '*"There is no Harvard-style vs Harnad-style approach."* Well, yes, there
+    *is* a difference. A Harvard-style policy retains rights by default. A Harnad-style
+    policy requires authors to take some overt action to retain rights.
+
+
+    I appreciate that you don''t think that rights retention is important, but that
+    doesn''t mean there isn''t a difference.
+
+
+    The interesting thing about the UNT variant (at least as modified above) is that
+    it does do rights retention by virtue of passing the policy itself, while sticking
+    to whatever restrictions publishers place. Personally, I''d rather see rights
+    retention in a much broader way, but if one is not going to do so, the above is
+    an interesting middle ground, which goes beyond an ID/OA approach in rights retention
+    but not as far as a Harvard-style policy.'
+  date: '2010-06-10 17:02:10'
+- author: Stevan Harnad
+  content: "OA IS AND ALWAYS WAS JUST A MATTER OF KEYSTROKES\n\nThe substantive differences\
+    \ between the two model \"styles,\" if any, are tiny. \n\nWhat I think UNT has\
+    \ done is to make the real contingencies much more explicit, foregrounding the\
+    \ ID/OA aspect: (1) immediate deposit is required [\"mandatory'], whereas the\
+    \ rest -- (2) setting access as OA and (3) retaining/licensing rights) -- are\
+    \ both optional; i.e., (2) and (3) can be \"waived,\" can be \"opted-out\" from,\
+    \ hence they are not really \"required,\" not mandatory. \n\nIt is that transparency\
+    \ about what is required and what is not that makes UNT a more universally adoptable\
+    \ model than the Harvard model, in which the contingencies (though substantively\
+    \ the same) are (I think) not made explicit enough so that universities considering\
+    \ adoption can see exactly what they are and are not committing themselves to.\n\
+    \nID/OA is just as compatible with designating (2) and (3) the \"default\" option,\
+    \ which can be waived, or opted-out from, in individual cases, if the author provides\
+    \ a reason. It all comes to the same thing: (1) You must deposit, no opt-out;\
+    \ (2) you must make the deposit immediately OA, but you may opt out, on an individual\
+    \ case-by-case basis, with reasons; (3) you must retain/license rights, but you\
+    \ may opt out, on an individual case-by-case basis, with reasons.\n\nThe logic\
+    \ and obligations are the same. The contingencies are simply more transparent\
+    \ in UNT's formulation of ID/OA, with the result that the immediate deposit requirement\
+    \ is the unambiguous cornerstone of the requirement, because it has no opt-out.\n\
+    \nGiven OA's lamentably long 20-year history of cop-outs, nothing is more important\
+    \ today than to get the opt-outs of a mandate model up-front, so all those worries\
+    \ about publishers and rights -- the ones that tend to turn university OA policies\
+    \ into empty restatements of publisher policies! -- are alleviated and the all-important\
+    \ core (mandatory deposit, no exceptions) is unmistakable, hence inescapable.\
+    \ What is and has been needed all along is a mandate that will ensure that the\
+    \ *deposit keystrokes* get done, without fasil: once those deposit keystrokes\
+    \ are getting done globally, all the rest of will come with the territory, as\
+    \ a natural matter of course. (Trust me!)"
+  date: '2010-06-11 08:09:03'

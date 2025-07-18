@@ -1,0 +1,51 @@
+wordpress_comments:
+- author: Dorothea Salo
+  content: 'Stuart, this is a fabulous project! (It''s amazing what happens when students
+    are set a problem and given freedom to solve it. I use this technique a lot in
+    my own classes, and have yet to be disappointed.)
+
+
+    Your students may be interested in reading about "More Product Less Process,"
+    a lean-mean archival processing method argued for by Greene and Meissner ("More
+    Product, Less Process: Revamping Traditional Archival Processing" American Archivist
+    68:208-263). MPLP has been extensively discussed in the archival literature; don''t
+    stop at the article I just cited!
+
+
+    MPLP lessons are now being applied to digitization of archival materials; I know
+    that archivist Josh Ranger at the University of Wisconsin at Oshkosh has done
+    (among other things) enlightening user-opinion surveys on MPLP digitization. I
+    can try to dig up additional work in this area if that would be helpful.
+
+
+    Your students'' work also comes at a crucial time in the evolution of archival-description
+    software. The two dominant open-source packages in this area, Archon and Archivists''
+    Toolkit, are merging into a new package called ArchivesSpace http://www.archivesspace.org/
+    . I encourage your students to look into getting involved in development and testing!
+
+
+    Disclaimer: I''m not an archivist myself; I only train a few of them in digital
+    tools and techniques.'
+  date: '2012-05-29 16:26:42'
+- author: Daniel Mietchen
+  content: One step I am missing in this workflow is the licensing. Sure, many items
+    in the special collections are old enough not to have this problem, but a good
+    portion probably isn't. Having a standard protocol for when to license what in
+    what way could really boost the reuse of such resources.
+  date: '2012-05-29 16:55:19'
+- author: Stuart Shieber
+  content: '@Daniel: Yes, the issue of restricting access based on privacy and rights
+    are very important, and received little discussion in the students'' work beyond  an
+    understanding that provision needs to be made for archivists'' control over the
+    public visibility of materials for these reasons. By the way, even out of copyright
+    materials in the collection may have distribution issues by virtue of contractual
+    obligations of the library from the donor, so age is not a sufficient criterion
+    for distribution. More thought definitely needs to go into this as we proceed
+    with the project.'
+  date: '2012-05-30 13:57:58'
+- author: Stuart Shieber
+  content: '@Dorothea: Thanks for the pointers. MPLP is definitely the theme of the
+    students'' proposals. There''s some use of Archivists'' Toolkit here at Harvard,
+    but not at all of our special collections. I hope we''ll be able to look into
+    these newer systems as well.'
+  date: '2012-05-30 14:00:12'
