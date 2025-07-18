@@ -71,20 +71,7 @@ layout: default
   Only show for posts that allow comments (default: true)
 {% endcomment %}
 
-<!-- DEBUG: Comments settings -->
-<div style="background: #f0f0f0; padding: 1rem; margin: 1rem 0; border: 1px solid #ccc;">
-  <strong>Debug - Comments Info:</strong><br>
-  page.comments: {{ page.comments }}<br>
-  page.comments != false: {{ page.comments != false }}<br>
-  Post date: {{ page.date }}<br>
-  Current time: {{ site.time }}<br>
-  Post timestamp: {{ post_timestamp }}<br>
-  Current timestamp: {{ current_timestamp }}<br>
-  Post age seconds: {{ post_age_seconds }}<br>
-  Post age days: {{ post_age_days }}<br>
-  Post age < 3650: {{ post_age_days < 3650 }}<br>
-  page.comments_always_open: {{ page.comments_always_open }}
-</div>
+
 
 {% if page.comments != false %}
   {% comment %}Skip age check for now - enable all posts for testing{% endcomment %}
