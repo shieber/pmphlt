@@ -497,6 +497,47 @@ figcaption .caption-source a:active {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* Style Giscus comments to match archived comments */
+.giscus .gsc-comment {
+  margin-bottom: 1.5rem !important;
+  padding: 1rem !important;
+  background-color: white !important;
+  border-radius: 4px !important;
+  border: 1px solid #ddd !important;
+}
+
+.giscus .gsc-comment-header {
+  margin-bottom: 0.5rem !important;
+  font-size: 0.9rem !important;
+  color: #666 !important;
+  border-bottom: 1px solid #eee !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.giscus .gsc-comment-author {
+  color: #333 !important;
+  font-weight: 600 !important;
+}
+
+.giscus .gsc-comment-created-at {
+  color: #666 !important;
+  font-style: italic !important;
+}
+
+.giscus .gsc-comment-content {
+  line-height: 1.6 !important;
+  color: #444 !important;
+}
+
+/* Style the overall Giscus container to match archived comments */
+.giscus-container {
+  background-color: #fafafa !important;
+  padding: 2rem !important;
+  border-radius: 4px !important;
+  border-left: 4px solid #888 !important;
+  margin-top: 1rem !important;
+}
+
 /* Comments closed message styling */
 .comments-closed {
   margin-top: 3rem;

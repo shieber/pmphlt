@@ -79,7 +79,7 @@ layout: default
   
   {% if post_age_days < 3650 or page.comments_always_open %}
     <div class="new-comments-section">
-      <h3>{% if comments_data.wordpress_comments %}New Comments{% else %}Comments{% endif %}</h3>
+      <h3>Comments</h3>
       <div class="giscus-container">
         <script src="https://giscus.app/client.js"
           data-repo="shieber/pmphlt"
@@ -88,7 +88,7 @@ layout: default
           data-category-id="DIC_kwDOPMi7n84CtKCM"
           data-mapping="pathname"
           data-strict="0"
-          data-reactions-enabled="1"
+          data-reactions-enabled="0"
           data-emit-metadata="0"
           data-input-position="bottom"
           data-theme="preferred_color_scheme"
