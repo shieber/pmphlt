@@ -44,7 +44,7 @@
 
   <!-- Email subscription link -->
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="#" id="subscribe-email-link">Subscribe (email)</a>
+    <a class="sidebar-nav-item" href="https://follow.it/the-occasional-pamphlet" id="subscribe-email-link">Subscribe (email)</a>
   </nav>
 
   <!-- DuckDuckGo Search -->
@@ -63,44 +63,5 @@
   </div>
 </div>
 
-<!-- Email subscribe modal -->
-<div id="subscribe-modal" class="subscribe-modal" aria-hidden="true">
-  <div class="subscribe-modal-box" role="dialog" aria-modal="true" aria-labelledby="subscribe-modal-title">
-    <button class="subscribe-modal-close" id="subscribe-modal-close" aria-label="Close">&times;</button>
-    <h4 id="subscribe-modal-title">Get posts by email</h4>
-    <form action="https://api.follow.it/subscription-form/SG9uSGJNRFdoaVBrRFhTNDM5ODk3N2hPVlMvRENxVXlCbnc3UWVsQnpSOVgzSFBzWXgvUmZJMFYwUVJWWnAwcEhuVWpJQnJMZUxBVVJ5T3FsMTdZL015Y2toeTEwTy81c3p6WGdNbnBzWkRabHZTQ1pvdHRzT0Q0MDJERVhpYWt8TTNURGlFM0dNeURMOVdQVTJpemZHZ0pKZXlaVms1TGU0OFMyV1pEblFVZz0=/8" method="post">
-      <input type="email" name="email" required placeholder="your@email.com" class="subscribe-modal-input">
-      <button type="submit" class="subscribe-modal-button">Subscribe</button>
-    </form>
-  </div>
-</div>
-
-<script>
-  (function () {
-    var link  = document.getElementById('subscribe-email-link');
-    var modal = document.getElementById('subscribe-modal');
-    var close = document.getElementById('subscribe-modal-close');
-
-    link.addEventListener('click', function (e) {
-      e.preventDefault();
-      modal.classList.add('is-open');
-      modal.setAttribute('aria-hidden', 'false');
-      modal.querySelector('input[type=email]').focus();
-    });
-
-    function closeModal() {
-      modal.classList.remove('is-open');
-      modal.setAttribute('aria-hidden', 'true');
-    }
-
-    close.addEventListener('click', closeModal);
-    modal.addEventListener('click', function (e) {
-      if (e.target === modal) closeModal();
-    });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeModal();
-    });
-  })();
-</script>
 
 
