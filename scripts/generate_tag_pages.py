@@ -19,8 +19,8 @@ def main():
     tags_dir = Path('_tags')
     tags_dir.mkdir(exist_ok=True)
     
-    # Get all posts and extract tags from _posts directory
-    posts_dirs = [Path('_posts')]
+    # Get all posts and extract tags from _posts and _unlisted directories
+    posts_dirs = [Path('_posts'), Path('_unlisted')]
     posts = []
     for posts_dir in posts_dirs:
         if posts_dir.exists():
