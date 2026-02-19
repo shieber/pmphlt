@@ -382,6 +382,87 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit; /* Use the color defined in their specific styles */
 }
 
+/* Email subscribe modal */
+.subscribe-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-modal.is-open {
+  display: flex;
+}
+
+.subscribe-modal-box {
+  background: #fff;
+  border-radius: 6px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 360px;
+  position: relative;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.subscribe-modal-box h4 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  color: #303030;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.subscribe-modal-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.8rem;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: #999;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.subscribe-modal-close:hover {
+  color: #333;
+}
+
+.subscribe-modal-input {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin-bottom: 0.6rem;
+}
+
+.subscribe-modal-input:focus {
+  outline: none;
+  border-color: #888;
+}
+
+.subscribe-modal-button {
+  width: 100%;
+  padding: 0.5rem;
+  background: #4a4a4a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.subscribe-modal-button:hover {
+  background: #333;
+}
+
 /* Copyright footer styling */
 .sidebar-item:last-child {
   margin-top: auto;

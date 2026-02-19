@@ -11,10 +11,11 @@ permalink: /tags/
       {% assign tag_trimmed = tag | strip %}
       {% assign posts_with_tag = site.posts | where_exp: "post", "post.tags contains tag_trimmed" %}
       {% if tag_trimmed != "" %}
+        {% assign tag_count = posts_with_tag | size %}
         <div class="tag-entry">
           <h3>
             <a href="/tags/{{ tag_trimmed | slugify }}/">{{ tag_trimmed }}</a>
-            <span class="tag-count">({{ posts_with_tag | size }} {% if posts_with_tag | size == 1 %}post{% else %}posts{% endif %})</span>
+            <span class="tag-count">({{ tag_count }} {% if tag_count == 1 %}post{% else %}posts{% endif %})</span>
           </h3>
         </div>
       {% endif %}

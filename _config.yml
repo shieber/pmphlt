@@ -48,3 +48,6 @@ collections:
   pages:
     output: true
     permalink: /:title/
+  unlisted:
+    output: true
+    permalink: /:year/:month/:day/:title/

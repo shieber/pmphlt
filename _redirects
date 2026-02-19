@@ -1,0 +1,9 @@
+# Redirects for URL changes
+# This helps preserve Giscus comment threads when URLs change
+
+# Example redirects (add your specific redirects here)
+# /old-url/ /new-url/ 301
+# /2022-07-25-moderating-principles/ /2022/07/25/moderating-principles/ 301
+
+# Format: old_url new_url status_code
+# Status codes: 301 (permanent), 302 (temporary) 
